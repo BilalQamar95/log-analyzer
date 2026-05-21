@@ -53,7 +53,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     try:
         with log_file as f:
             for line_no, raw_line in enumerate(f, start=1):
-                analyzer.consume(parser.parse(raw_line.rstrip("\n"), line_no))
+                analyzer.consume(parser.parse(raw_line.rstrip("\r\n"), line_no))
     except (OSError, EOFError) as exc:
         print(f"error: cannot read {args.path}: {exc}", file=sys.stderr)
         return 2

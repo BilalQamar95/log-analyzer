@@ -166,3 +166,18 @@ class TestFlagPassthrough:
         f = tmp_path / "test.log"
         f.write_text(VALID_LINE)
         assert main([str(f), "--status", "5xx"]) == 0
+
+
+# ---------------------------------------------------------------------------
+# CRLF line endings (Windows-authored logs)
+# ---------------------------------------------------------------------------
+
+class TestCRLF:
+    def test_crlf_line_parses_correctly(self, tmp_path, capsys):
+        f = tmp_path / "crlf.log"
+        f.write_bytes(VALID_LINE.rstrip("\n").encode("utf-8") + b"\r\n")
+        rc = main([str(f), "--json"])
+        assert rc == 0
+        data = json.loads(capsys.readouterr().out)
+        assert data["parsed_lines"] == 1
+        assert data["anomaly_count"] == 0

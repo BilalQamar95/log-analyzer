@@ -102,7 +102,11 @@ class Analyzer:
             self.ip_counts[e.ip] += 1
 
     def snapshot(self) -> Dict[str, Any]:
-        assert self.parsed_lines + self.anomaly_count == self.total_lines  # deviation #8
+        if self.parsed_lines + self.anomaly_count != self.total_lines:
+            raise RuntimeError(
+                f"invariant violated: parsed({self.parsed_lines}) + "
+                f"anomalies({self.anomaly_count}) != total({self.total_lines})"
+            )
 
         return {
             "total_lines": self.total_lines,
