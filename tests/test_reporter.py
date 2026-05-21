@@ -105,6 +105,23 @@ class TestJsonReporter:
         JsonReporter().render(empty_snapshot(), make_args(), out)
         assert out.getvalue().endswith("\n")
 
+    def test_populated_snapshot_serialization(self):
+        out = io.StringIO()
+        JsonReporter().render(basic_snapshot(), make_args(), out)
+        data = json.loads(out.getvalue())
+        # date_range values should be ISO strings
+        assert isinstance(data["date_range"]["first"], str)
+        assert isinstance(data["date_range"]["last"], str)
+        # by_status keys become strings in JSON
+        error_rows = data["error_heavy_endpoints"]
+        if error_rows:
+            for code in next(iter(error_rows))["by_status"]:
+                assert isinstance(code, str)
+        # field_warnings present
+        assert isinstance(data["field_warnings"], dict)
+        # format counts present and non-empty
+        assert data["format_counts"]
+
 
 # ---------------------------------------------------------------------------
 # TextReporter default mode — section presence
