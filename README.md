@@ -14,13 +14,13 @@ step needed.
 ## Run
 
 ```
-python loganalyze.py path/to/access.log
+python3 loganalyze.py path/to/access.log
 ```
 
 Gzip-compressed logs are auto-detected via magic-byte sniff:
 
 ```
-python loganalyze.py path/to/access.log.gz
+python3 loganalyze.py path/to/access.log.gz
 ```
 
 ### Flags
@@ -43,13 +43,13 @@ A seedable generator produces representative logs matching the documented
 5–10% anomaly mix:
 
 ```
-python scripts/generate_log.py --lines 10000 --seed 42 --output sample.log
+python3 scripts/generate_log.py --lines 10000 --seed 42 --output sample.log
 ```
 
 To generate a fully-clean baseline (zero anomalies):
 
 ```
-python scripts/generate_log.py --lines 2000 --anomaly-rate 0.0 --output clean.log
+python3 scripts/generate_log.py --lines 2000 --anomaly-rate 0.0 --output clean.log
 ```
 
 Same seed produces byte-identical output. Python's `random` module guarantees
@@ -59,10 +59,10 @@ stability within a minor version.
 
 ```
 pip install pytest
-python -m pytest
+python3 -m pytest
 ```
 
-273 tests across unit (normalizers, parser, analyzer, reporter, CLI) and
+276 tests across unit (normalizers, parser, analyzer, reporter, CLI) and
 integration (clean/messy/adversarial fixtures, flag matrix, subprocess
 broken-pipe check, acceptance smoke covering all fixtures × all flags).
 
