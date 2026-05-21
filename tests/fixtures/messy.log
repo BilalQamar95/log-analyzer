@@ -1,0 +1,2000 @@
+2024-03-15T14:23:02Z 172.16.0.3 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 1518ms
+2024/03/15 14:23:02 203.0.113.17 GET /api/orders/abcdef1234567890ab 403 75ms
+2024-03-15T14:23:03Z 203.0.113.17 PATCH /api/users 500 417ms
+2024-03-15T14:23:08Z 10.0.0.9 PATCH /api/login 200 1564ms
+15-Mar-2024 14:23:09 172.16.0.3 PUT /api/users/34 201 1970ms
+2024-03-15T14:23:10Z 192.168.1.42 PUT /api/reports 502 551ms
+15-Mar-2024 14:23:11 203.0.113.17 GET /api/export 200 1140ms
+2024-03-15T14:23:14Z 192.168.1.42 get /api/users/550e8400-e29b-41d4-a716-446655440000 301 173ms
+2024-03-15T14:23:16Z 10.0.0.9 PUT /api/health 401 343ms "python-requests/2.31.0"
+2024-03-15T14:23:19Z 172.16.0.3 GET /api/orders/abcdef1234567890ab 200 1103ms
+2024-03-15T14:23:21Z 10.0.0.9 PUT /api/orders/9971 201 1412ms
+{"timestamp": "2024-03-15T14:23:24Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/users", "status": 401, "response_ms": 831}
+2024-03-15T14:23:26Z 203.0.113.17 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 404 820ms
+2024-03-15T14:23:30Z 10.0.0.7 POST /api/orders/9971 500 548ms
+2024-03-15T14:23:35Z 203.0.113.17 DELETE /api/reports 201 293ms
+2024-03-15T14:23:39Z 192.168.1.42 GET /api/users/34 200 1632ms
+2024-03-15T14:23:42Z 10.0.0.9 delete /api/orders/abcdef1234567890ab 404 1093ms
+Traceback (most recent call last):
+15-Mar-2024 14:23:46 203.0.113.17 PUT /api/reports 200 611ms
+2024-03-15T14:23:47Z 172.16.0.3 PATCH /api/users/34 500 1879ms
+2024-03-15T14:23:48Z 172.16.0.3 PATCH /api/orders/abcdef1234567890ab 201 323ms "python-requests/2.31.0"
+2024-03-15T14:23:49Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 401 1010ms
+2024-03-15T14:23:50Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 503ms
+2024-03-15T14:23:54Z 192.168.1.42 DELETE /api/users/12 500 1578
+2024-03-15T14:23:56Z 10.0.0.9 PATCH /api/users/34 301 1090ms
+  at com.example.Service.process(Service.java:101)
+2024/03/15 14:24:01 10.0.0.9 PUT /api/health 500 934ms
+2024-03-15T14:24:03Z 172.16.0.3 GET /api/orders/abcdef1234567890ab 500 481ms
+2024-03-15T14:24:08Z 192.168.1.42 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 1864ms
+2024-03-15T14:24:08Z 192.168.1.42 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 301 1380ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:24:10Z 203.0.113.17 PATCH /api/health 201 1616ms
+{"timestamp": "2024-03-15T14:24:14Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/users/12", "status": 403, "response_ms": 735}
+2024-03-15T14:24:18Z 192.168.1.42 GET /api/users 403 1501ms
+{"timestamp": "2024-03-15T14:24:21Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 201, "response_ms": 1108}
+2024-03-15T14:24:24Z 10.0.0.7 PUT /api/health 201 1800ms
+2024-03-15T14:24:25Z 203.0.113.17 GET /api/users 500 1722ms
+  File "app.py", line 42, in handle_request
+2024-03-15T14:24:27Z 10.0.0.9 POST /api/export 200 347ms
+2024-03-15T14:24:30Z 10.0.0.9 PUT /api/health 301 876ms
+2024/03/15 14:24:35 10.0.0.9 POST /api/users/550e8400-e29b-41d4-a716-446655440000 301 455ms
+1710512679 192.168.1.42 PUT /api/users 200 1206ms
+2024-03-15T14:24:43Z 203.0.113.17 POST /api/users 500 174ms
+2024-03-15T14:24:45Z 192.168.1.42 POST /api/export 200 1938ms
+2024-03-15T14:24:50Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 200 868ms
+2024-03-15T14:24:55Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 401 498ms
+2024-03-15T14:24:57Z 172.16.0.3 DELETE /api/reports 200 29ms
+2024-03-15T14:25:01Z 203.0.113.17 get /api/users/12 500 446ms
+2024-03-15T14:25:05Z 172.16.0.3 GET /api/users/550e8400-e29b-41d4-a716-446655440000 401 593ms
+2024-03-15T14:25:07Z 203.0.113.17 PUT /api/orders/abcdef1234567890ab 500 26ms
+2024-03-15T14:25:11Z 192.168.1.42 POST /api/login 200 1832ms
+1710512712 10.0.0.7 PUT /api/login 502 441ms
+2024-03-15T14:25:15Z 172.16.0.3 PATCH /api/health 301 1864ms
+2024-03-15T14:25:16Z 10.0.0.9 PUT /api/users 200 693ms
+2024-03-15T14:25:17Z 172.16.0.3 post /api/health 500 1455ms
+2024-03-15T14:25:20Z 192.168.1.42 GET /api/users/34 500 83ms
+2024-03-15T14:25:23Z 10.0.0.7 delete /api/users/34 200 641ms
+2024-03-15T14:25:27Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 201 1375ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+{"timestamp": "2024-03-15T14:25:30Z", "ip": "10.0.0.9", "method": "PATCH", "path": "/api/users/34", "status": 201, "response_ms": 1780}
+2024-03-903
+2024-03-15T14:25:34Z 172.16.0.3 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 301 336ms
+2024-03-15T14:25:35Z 192.168.1.42 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 201 1682ms
+2024-03-15T14:25:39Z 10.0.0.7 POST /api/users 201 826ms
+2024-03-15T14:25:42Z 192.168.1.42 PUT /api/reports 500 828ms
+2024-03-15T14:25:47Z 192.168.1.42 GET /api/login 200 1199ms
+2024-03-15T14:25:49Z 203.0.113.17 DELETE /api/reports 401 903ms
+2024-03-15T14:25:53Z 203.0.113.17 POST /api/login 200 1461ms
+2024-03-15T14:25:57Z 203.0.113.17 POST /api/reports 403 153ms
+2024-03-15T14:26:00Z 192.168.1.42 put /api/orders/9971 301 1375ms
+2024-03-15T14:26:03Z 172.16.0.3 PATCH /api/users/34 201 871ms
+2024/03/15 14:26:06 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 301 841ms
+2024-03-15T14:26:09Z 10.0.0.9 PATCH /api/orders/abcdef1234567890ab 401 962ms
+2024-03-15T14:26:13Z 10.0.0.7 PATCH /api/health 200 1359ms
+2024-03-15T14:26:13Z 203.0.113.17 PUT /api/users/12 201 1387ms
+2024-03-15T14:26:16Z 10.0.0.7 POST /api/users 200 511ms
+2024-03-15T14:26:20Z 192.168.1.42 delete /api/export 502 408ms
+2024-03-15T14:26:23Z 10.0.0.7 POST /api/users 200 1604ms
+2024-03-15T14:26:27Z 203.0.113.17 DELETE /api/users 500 520ms
+2024-03-15T14:26:28Z 10.0.0.9 PATCH /api/orders/9971 502 659ms
+2024-03-15T14:26:32Z 203.0.113.17 delete /api/orders/9971 404 1847ms
+1710512793 10.0.0.9 DELETE /api/login 201 1730ms
+1710512795 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 301 910ms
+2024/03/15 14:26:36 10.0.0.7 PUT /api/reports 401 1838ms
+2024-03-15T14:26:37Z 10.0.0.9 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 859ms
+2024-03-15T14:26:41Z 10.0.0.9 DELETE /api/users 201 1715ms
+2024-03-15T14:26:44Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 403 986ms
+2024-03-15T14:26:45Z 172.16.0.3 DELETE /api/export 500 1540
+{"timestamp": "2024-03-15T14:26:49Z", "ip": "10.0.0.7", "method": "DELETE", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 301, "response_ms": 902}
+2024-03-15T14:26:53Z 172.16.0.3 DELETE /api/users/34 404 1893ms
+---28
+2024-03-15T14:26:58Z 192.168.1.42 get /api/export 200 1785ms
+2024-03-15T14:27:02Z 172.16.0.3 DELETE /api/reports 201 941ms
+2024-03-15T14:27:04Z 10.0.0.9 PUT /api/export 301 1719ms
+2024-03-15T14:27:05Z 203.0.113.17 GET /api/reports 201 1341ms
+{"timestamp": "2024-03-15T14:27:06Z", "ip": "192.168.1.42", "method": "GET", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 201, "response_ms": 1728}
+2024-03-15T14:27:06Z 10.0.0.7 post /api/health 200 1165ms
+2024-03-15T14:27:08Z 172.16.0.3 PUT /api/users/34 502 1253ms
+{"timestamp": "2024-03-15T14:27:09Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users/12", "status": 502, "response_ms": 62}
+2024-03-15T14:27:12Z 10.0.0.9 delete /api/users/550e8400-e29b-41d4-a716-446655440000 200 1222ms
+2024-03-15T14:27:14Z 172.16.0.3 PATCH /api/users/12 502 1612ms
+2024-03-15T14:27:14Z 10.0.0.9 PUT /api/users/12 500 1336ms
+2024-03-15T14:27:17Z 10.0.0.9 DELETE /api/users/12 403 1977ms
+2024-03-15T14:27:20Z 10.0.0.9 post /api/export 200 1512ms
+  File "db.py", line 17, in query
+{"timestamp": "2024-03-15T14:27:29Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/orders/abcdef1234567890ab", "status": 301, "response_ms": 670}
+{"timestamp": "2024-03-15T14:27:31Z", "ip": "192.168.1.42", "method": "PUT", "path": "/api/health", "status": 201, "response_ms": 1546}
+2024-03-15T14:27:35Z 10.0.0.9 PUT /api/users 404 1752ms
+2024-03-15T14:27:38Z 10.0.0.7 PUT /api/login 401 582ms
+2024/03/15 14:27:43 172.16.0.3 PATCH /api/users 500 1951ms
+2024-03-15T14:27:44Z 10.0.0.9 DELETE /api/orders/9971 201 1424ms
+2024-03-15T14:27:48Z 10.0.0.9 delete /api/users 200 612ms
+2024-03-15T14:27:49Z 10.0.0.7 PUT /api/orders/abcdef1234567890ab 401 979ms
+2024-03-15T14:27:54Z 10.0.0.9 PATCH /api/reports 401 1449ms
+2024-03-15T14:27:58Z 172.16.0.3 POST /api/users/12 201 656ms
+1710512879 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 404 576ms
+---612
+2024-03-304
+2024-03-15T14:28:08Z 172.16.0.3 GET /api/orders/9971 200 571ms
+  at com.example.Service.process(Service.java:101)
+15-Mar-2024 14:28:11 10.0.0.7 DELETE /api/users/12 200 1185ms
+2024-03-15T14:28:15Z 172.16.0.3 POST /api/users 301 1937ms
+2024-03-15T14:28:19Z 192.168.1.42 DELETE /api/health 200 1191ms
+2024-03-15T14:28:20Z 203.0.113.17 PUT /api/users/12 201 252ms
+1710512904 203.0.113.17 PATCH /api/orders/abcdef1234567890ab 201 1598ms
+2024-03-15T14:28:29Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 403 635ms
+2024-03-15T14:28:34Z 203.0.113.17 get /api/users/550e8400-e29b-41d4-a716-446655440000 201 551ms
+2024-03-15T14:28:34Z 10.0.0.7 PATCH /api/users/12 200 15ms
+2024-03-15T14:28:38Z 203.0.113.17 DELETE /api/login 200 484ms
+2024/03/15 14:28:40 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 301 1623ms
+2024-03-15T14:28:44Z 10.0.0.7 POST /api/login 200 156ms
+2024-03-15T14:28:44Z 172.16.0.3 PATCH /api/orders/abcdef1234567890ab 301 909ms
+2024-03-15T14:28:46Z 172.16.0.3 DELETE /api/login 500 1115ms
+2024-03-15T14:28:50Z 203.0.113.17 GET /api/export 401 1246ms
+2024-03-15T14:28:52Z 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 200 1576ms
+2024-03-15T14:28:54Z 10.0.0.7 delete /api/orders/9971 404 1886ms
+2024-03-15T14:28:56Z 203.0.113.17 DELETE /api/health 200 972ms
+2024-03-15T14:28:59Z 172.16.0.3 GET /api/users/34 401 853ms
+2024-03-15T14:29:04Z 10.0.0.9 PATCH /api/users 404 190ms
+2024-03-15T14:29:06Z 192.168.1.42 DELETE /api/orders/9971 200 1356ms
+2024-03-15T14:29:11Z 192.168.1.42 POST /api/orders/9971 401 1285ms
+2024-03-15T14:29:15Z 192.168.1.42 post /api/login 500 278ms
+2024-03-15T14:29:17Z 10.0.0.9 GET /api/users 502 1646ms
+2024/03/15 14:29:20 172.16.0.3 PATCH /api/users 500 845ms
+Xfj"B$yRZYvW)iNo/
+1710512966 10.0.0.7 GET /api/login 403 706ms
+2024-03-15T14:29:30Z 192.168.1.42 PUT /api/login 502 1197ms
+2024-03-15T14:29:34Z 10.0.0.9 PATCH /api/health 401 690ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:29:38Z 10.0.0.7 POST /api/orders/abcdef1234567890ab 403 0.488s
+2024-03-15T14:29:41Z 10.0.0.9 DELETE /api/export 200 1024ms
+2024-03-15T14:29:42Z 203.0.113.17 PUT /api/users/12 404 214ms
+2024-03-15T14:29:46Z 192.168.1.42 POST /api/export - 163ms
+{"timestamp": "2024-03-15T14:29:50Z", "ip": "172.16.0.3", "method": "PUT", "path": "/api/orders/abcdef1234567890ab", "status": 403, "response_ms": 1340}
+2024-03-15T14:29:51Z 203.0.113.17 DELETE /api/reports 404 1796ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:29:52Z 172.16.0.3 POST /api/users/12 403 211ms
+2024-03-15T14:29:52Z 172.16.0.3 GET /api/users 401 1640ms
+2024-03-15T14:29:53Z 172.16.0.3 DELETE /api/users/34 201 1097ms
+2024-03-15T14:29:57Z 10.0.0.7 POST /api/users/34 200 1258ms
+2024-03-15T14:30:00Z 10.0.0.7 delete /api/orders/abcdef1234567890ab 200 485ms
+2024-03-15T14:30:04Z 10.0.0.9 put /api/users 404 1855ms
+15-Mar-2024 14:30:06 10.0.0.7 GET /api/health 401 1213ms
+15-Mar-2024 14:30:10 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 403 1757ms
+2024-03-15T14:30:11Z 203.0.113.17 PUT /api/orders/abcdef1234567890ab 301 1442ms
+2024-03-15T14:30:13Z 10.0.0.9 PUT /api/users 502 1781ms
+2024-03-15T14:30:14Z 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 - 1652ms
+2024-03-15T14:30:17Z 10.0.0.7 PATCH /api/login 200 1296ms
+2024-03-15T14:30:18Z 192.168.1.42 PUT /api/health - 1196ms
+1710513021 192.168.1.42 PUT /api/reports 403 369ms
+2024-03-15T14:30:22Z 203.0.113.17 PUT /api/orders/9971 500 1880ms
+{"timestamp": "2024-03-15T14:30:25Z", "ip": "172.16.0.3", "method": "DELETE", "path": "/api/login", "status": 401, "response_ms": 1657}
+2024-03-15T14:30:26Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 403 1990ms
+2024-03-15T14:30:30Z 10.0.0.9 GET /api/login 500 263ms
+2024-03-15T14:30:34Z 172.16.0.3 PATCH /api/export 401 231ms
+2024-03-15T14:30:36Z 203.0.113.17 PATCH /api/reports 502 463ms
+2024-03-15T14:30:37Z 10.0.0.9 put /api/export 200 296ms
+2024-03-15T14:30:37Z 172.16.0.3 DELETE /api/users/12 200 490
+2024-03-15T14:30:42Z 10.0.0.9 PUT /api/orders/9971 403 1212ms
+2024-03-15T14:30:43Z 192.168.1.42 DELETE /api/orders/abcdef1234567890ab 403 1933ms "python-requests/2.31.0"
+15-Mar-2024 14:30:44 10.0.0.7 DELETE /api/health 201 1761ms
+10.0.558
+2024-03-15T14:30:48Z 172.16.0.3 POST /api/users/12 404 197ms
+2024-03-15T14:30:49Z 203.0.113.17 get /api/users 401 508ms
+{"timestamp": "2024-03-15T14:30:50Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/orders/9971", "status": 201, "response_ms": 1210}
+{"timestamp": "2024-03-15T14:30:52Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users/34", "status": 502, "response_ms": 15}
+2024-03-15T14:30:55Z 10.0.0.7 POST /api/orders/9971 301 1645ms "curl/7.88.1"
+2024/03/15 14:30:56 192.168.1.42 POST /api/users 401 1627ms
+2024-03-15T14:31:01Z 10.0.0.7 PUT /api/users 200 1529ms
+2024-03-15T14:31:04Z 192.168.1.42 DELETE /api/health 401 1061ms
+2024-03-15T14:31:09Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 200 1499ms
+2024-03-15T14:31:14Z 192.168.1.42 GET /api/health 403 883ms
+2024-03-15T14:31:15Z 10.0.0.9 GET /api/users/12 401 1255ms
+2024-03-15T14:31:16Z 172.16.0.3 PATCH /api/orders/abcdef1234567890ab 500 1468ms
+2024-03-15T14:31:19Z 203.0.113.17 PATCH /api/login 404 1045ms
+2024-03-15T14:31:22Z 192.168.1.42 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 403 934ms
+2024-03-15T14:31:24Z 10.0.0.9 DELETE /api/export 200 650ms
+2024-03-15T14:31:28Z 172.16.0.3 PUT /api/users/34 404 147ms
+{"timestamp": "2024-03-15T14:31:29Z", "ip": "192.168.1.42", "method": "DELETE", "path": "/api/users/12", "status": 401, "response_ms": 1672}
+2024-03-15T14:31:30Z 203.0.113.17 PATCH /api/orders/9971 401 1382ms
+2024-03-15T14:31:31Z 10.0.0.9 GET /api/login 502 649ms
+2024-03-15T14:31:34Z 203.0.113.17 POST /api/users/34 404 469ms
+2024-03-15T14:31:35Z 203.0.113.17 PUT /api/users/12 301 1185ms
+{"timestamp": "2024-03-15T14:31:37Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/orders/abcdef1234567890ab", "status": 500, "response_ms": 63}
+2024-03-15T14:31:39Z 172.16.0.3 PUT /api/reports 401 22ms
+2024-03-15T14:31:41Z 203.0.113.17 DELETE /api/users/12 200 1527ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+1710513102 10.0.0.7 DELETE /api/export 404 708ms
+2024-03-15T14:31:43Z 172.16.0.3 PATCH /api/orders/abcdef1234567890ab 200 1819ms
+2024-03-15T14:31:43Z 203.0.113.17 GET /api/users/12 301 917ms
+2024-03-15T14:31:47Z 10.0.0.9 DELETE /api/login 201 1556ms
+2024-03-15T14:31:51Z 10.0.0.9 GET /api/login 502 1006ms
+2024/03/15 14:31:56 192.168.1.42 POST /api/export 502 122ms
+2024-03-15T14:31:58Z 10.0.0.7 POST /api/login 301 681ms
+2024-03-15T14:31:59Z 10.0.0.9 POST /api/users/34 403 1100ms
+2024-03-15T14:32:01Z 172.16.0.3 GET /api/export 200 903ms
+2024-03-15T14:32:01Z 192.168.1.42 PUT /api/orders/abcdef1234567890ab 403 1184ms
+15-Mar-2024 14:32:04 10.0.0.9 PUT /api/users/12 403 52ms
+{"timestamp": "2024-03-15T14:32:06Z", "ip": "203.0.113.17", "method": "DELETE", "path": "/api/reports", "status": 200, "response_ms": 904}
+2024-03-15T14:32:07Z 203.0.113.17 DELETE /api/orders/9971 200 820ms
+1710513129 10.0.0.7 PUT /api/users/34 200 1055ms
+2024-03-15T14:32:10Z 10.0.0.7 PUT /api/reports 200 493ms
+2024-03-15T14:32:11Z 10.0.0.7 POST /api/orders/abcdef1234567890ab 200 1566ms
+2024-03-15T14:32:12Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 502 929ms
+2024-03-15T14:32:17Z 203.0.113.17 put /api/reports 200 910ms
+2024-03-15T14:32:17Z 172.16.0.3 PUT /api/orders/abcdef1234567890ab 200 730ms
+2024-03-15T14:32:22Z 10.0.0.9 DELETE /api/users 200 765ms
+2024-03-15T14:32:24Z 192.168.1.42 PATCH /api/orders/abcdef1234567890ab 500 797ms
+2024-03-15T14:32:28Z 192.168.1.42 delete /api/orders/abcdef1234567890ab 201 668ms
+2024-03-15T14:32:32Z 192.168.1.42 DELETE /api/users/12 401 1472ms
+2024-03-15T14:32:33Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 404 909ms
+2024-03-15T14:32:37Z 10.0.0.7 PUT /api/reports 301 803ms
+{"timestamp": "2024-03-15T14:32:41Z", "ip": "203.0.113.17", "method": "GET", "path": "/api/reports", "status": 200, "response_ms": 685}
+2024-03-15T14:32:42Z 10.0.0.9 PUT /api/login 502 1798ms
+2024-03-15T14:32:43Z 203.0.113.17 POST /api/reports 301 1991ms
+2024-03-15T14:32:46Z 192.168.1.42 PUT /api/orders/9971 403 1327ms
+{"timestamp": "2024-03-15T14:32:49Z", "ip": "203.0.113.17", "method": "GET", "path": "/api/export", "status": 500, "response_ms": 751}
+2024-03-15T14:32:49Z 10.0.0.7 POST /api/reports 404 403ms
+{"timestamp": "2
+2024-03-15T14:32:54Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 403 325ms "curl/7.88.1"
+{"timestamp": "2024-03-15T14:32:56Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/health", "status": 200, "response_ms": 851}
+15-Mar-2024 14:32:59 10.0.0.7 DELETE /api/orders/abcdef1234567890ab 301 1550ms
+2024-03-15T14:33:01Z 172.16.0.3 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 401 1399ms
+GET /api788
+{"timestamp": "2024-03-15T14:33:08Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/export", "status": 200, "response_ms": 1682}
+{"timestamp": "2024-03-15T14:33:10Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users", "status": 404, "response_ms": 1800}
+2024-03-15T14:33:13Z 192.168.1.42 PATCH /api/users/12 301 181ms
+2024-03-15T14:33:14Z 203.0.113.17 POST /api/export 200 1948ms
+{"timestamp": "2024-03-15T14:33:16Z", "ip": "172.16.0.3", "method": "GET", "path": "/api/export", "status": 200, "response_ms": 821}
+2024-03-15T14:33:20Z 10.0.0.9 GET /api/reports 201 67ms
+2024-03-15T14:33:23Z 172.16.0.3 POST /api/users/34 200 0.597s
+2024/03/15 14:33:27 10.0.0.7 DELETE /api/health 502 20ms
+2024-03-15T14:33:27Z 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 500 876ms
+{"timestamp": "2024-03-15T14:33:28Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users/12", "status": 200, "response_ms": 498}
+2024-03-15T14:33:32Z 203.0.113.17 delete /api/users/12 200 1723ms
+2024-03-15T14:33:36Z 192.168.1.42 patch /api/orders/abcdef1234567890ab 201 1481ms
+2024-03-15T14:33:37Z 192.168.1.42 PATCH /api/reports 201 1178ms
+2024-03-15T14:33:41Z 192.168.1.42 PATCH /api/reports 200 1962ms
+2024-03-15T14:33:45Z 203.0.113.17 PATCH /api/users 403 1798ms
+2024-03-15T14:33:49Z 10.0.0.9 PUT /api/login 200 741ms
+2024-03-15T14:33:50Z 192.168.1.42 PATCH /api/reports 200 100ms
+2024-03-15T14:33:53Z 10.0.0.7 DELETE /api/health 200 1671ms
+2024-03-15T14:33:54Z 10.0.0.9 GET /api/login 201 99ms
+2024-03-15T14:33:56Z 172.16.0.3 PUT /api/orders/9971 403 1679ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:33:58Z 10.0.0.7 PUT /api/reports 200 1783ms
+2024-03-15T14:34:01Z 172.16.0.3 DELETE /api/export 404 1842ms
+2024-03-15T14:34:04Z 10.0.0.7 DELETE /api/health 401 1902ms
+2024-03-15T14:34:08Z 192.168.1.42 DELETE /api/users/12 403 1243ms
+2024-03-15T14:34:10Z 172.16.0.3 GET /api/users/12 401 1363ms
+2024-03-15T14:34:12Z 203.0.113.17 DELETE /api/users/34 404 729ms
+2024-03-15T14:34:16Z 172.16.0.3 PATCH /api/export 301 1319ms
+2024-03-15T14:34:17Z 10.0.0.9 PUT /api/orders/9971 200 1961ms
+2024-03-15T14:34:17Z 203.0.113.17 DELETE /api/users 200 147ms
+{"timestamp": "2024-03-15T14:34:19Z", "ip": "172.16.0.3", "method": "PUT", "path": "/api/export", "status": 502, "response_ms": 76}
+2024/03/15 14:34:21 172.16.0.3 PUT /api/health 200 1185ms
+2024-03-15T14:34:25Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 63ms
+2024-03-15T14:34:27Z 10.0.0.9 PATCH /api/users/12 301 1597ms
+2024/03/15 14:34:29 10.0.0.7 PATCH /api/login 404 419ms
+2024-03-15T14:34:30Z 10.0.0.9 POST /api/health 200 1669ms "python-requests/2.31.0"
+2024/03/15 14:34:33 203.0.113.17 PATCH /api/login 301 1753ms
+{"timestamp": "2024-03-15T14:34:34Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users/12", "status": 201, "response_ms": 1632}
+2024-03-15T14:34:36Z 10.0.0.9 GET /api/reports 500 1182ms
+2024-03-15T14:34:39Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 200 144ms
+2024-03-15T14:34:41Z 10.0.0.9 PATCH /api/export 403 1696ms
+2024-03-15T14:34:46Z 172.16.0.3 GET /api/health 404 1402ms
+2024-03-15T14:34:51Z 203.0.113.17 PATCH /api/users/34 200 896ms
+2024-03-15T14:34:55Z 192.168.1.42 GET /api/orders/9971 - 632ms
+2024-03-15T14:34:56Z 10.0.0.7 PUT /api/orders/9971 301 1742ms
+2024-03-15T14:34:57Z 203.0.113.17 PUT /api/users/34 301 1268ms
+2024-03-15T14:35:02Z 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 200 360ms
+{"timestamp": "2024-03-15T14:35:04Z", "ip": "203.0.113.17", "method": "GET", "path": "/api/users", "status": 200, "response_ms": 103}
+2024-03-15T14:35:09Z 10.0.0.7 PATCH /api/export 502 1318ms
+2024-03-15T14:35:10Z 203.0.113.17 PUT /api/login 404 511ms
+2024-03-15T14:35:13Z 192.168.1.42 GET /api/users/34 404 861ms
+2024-03-15T14:35:17Z 172.16.0.3 PATCH /api/users/34 401 1774ms
+1710513320 172.16.0.3 DELETE /api/users/34 401 1064ms
+2024-03-15T14:35:24Z 10.0.0.7 DELETE /api/users/12 301 930ms
+2024-03-15T14:35:27Z 192.168.1.42 PUT /api/export 502 866ms
+  File "app.py", line 42, in handle_request
+2024-03-15T14:35:31Z 172.16.0.3 POST /api/users/34 404 1.064s
+2024-03-15T14:35:35Z 172.16.0.3 DELETE /api/users 200 1945ms
+2024-03-15T14:35:39Z 10.0.0.7 POST /api/orders/abcdef1234567890ab 401 109ms
+2024-03-15T14:35:39Z 203.0.113.17 DELETE /api/login 500 26ms
+2024-03-15T14:35:40Z 172.16.0.3 PUT /api/export 401 102ms
+2024-03-15T14:35:44Z 203.0.113.17 POST /api/reports 500 601ms
+2024-03-15T14:35:44Z 10.0.0.9 PATCH /api/login 502 1403ms
+2024-03-15T14:35:45Z 192.168.1.42 DELETE /api/reports 401 1152ms
+1710513348 10.0.0.7 PATCH /api/orders/9971 403 1034ms
+2024-03-15T14:35:49Z 10.0.0.7 PUT /api/health 500 945ms
+2024-03-15T14:35:50Z 203.0.113.17 post /api/reports 502 662ms
+2024-03-15T14:35:52Z 203.0.113.17 PUT /api/orders/abcdef1234567890ab 401 1048ms
+2024-03-15T14:35:56Z 203.0.113.17 PUT /api/health 200 764ms
+15-Mar-2024 14:35:59 10.0.0.9 PATCH /api/login 200 1232ms
+  at com.example.Service.process(Service.java:101)
+2024-03-15T14:36:06Z 192.168.1.42 PATCH /api/health 200 1083ms
+2024-03-15T14:36:09Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 200 400ms
+2024-03-15T14:36:09Z 10.0.0.9 POST /api/export 201 850ms
+{"timestamp": "2024-03-15T14:36:14Z", "ip": "10.0.0.9", "method": "GET", "path": "/api/users/34", "status": 500, "response_ms": 434}
+2024-03-15T14:36:18Z 10.0.0.9 PATCH /api/export 401 1969ms
+2024-03-15T14:36:20Z 203.0.113.17 PUT /api/orders/9971 401 1394ms
+2024-03-15T14:36:22Z 10.0.0.7 post /api/login 500 621ms
+2024-03-15T14:36:24Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 404 659
+2024-03-15T14:36:28Z 172.16.0.3 PUT /api/users/12 502 1395ms
+2024-03-15T14:36:33Z 10.0.0.9 PUT /api/users/34 301 96ms
+
+2024-03-15T14:36:36Z 10.0.0.9 PUT /api/health 201 423ms
+2024-03-15T14:36:40Z 203.0.113.17 PUT /api/users/34 200 1270ms
+2024-03-15T14:36:45Z 192.168.1.42 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 201 117ms
+2024-03-15T14:36:46Z 10.0.0.9 GET /api/users/34 200 1985ms
+2024-03-417
+2024-03-15T14:36:55Z 10.0.0.7 PUT /api/reports 301 1332ms
+2024-03-15T14:36:55Z 192.168.1.42 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 - 1522ms
+2024-03-15T14:36:56Z 10.0.0.7 DELETE /api/users/34 - 1722ms
+{"timestamp": "2024-03-15T14:36:59Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users", "status": 200, "response_ms": 621}
+2024-03-15T14:37:04Z 172.16.0.3 put /api/health 500 1083ms
+2024-03-15T14:37:08Z 10.0.0.7 PATCH /api/health 301 404ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:37:11Z 10.0.0.9 PUT /api/users/34 200 1518ms
+{"timestamp": "2024-03-15T14:37:14Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users/34", "status": 502, "response_ms": 1763}
+{"timestamp": "2024-03-15T14:37:17Z", "ip": "203.0.113.17", "method": "PUT", "path": "/api/users/12", "status": 403, "response_ms": 1380}
+2024-03-15T14:37:18Z 10.0.0.7 DELETE /api/reports 201 23ms
+2024-03-15T14:37:20Z 10.0.0.9 PUT /api/reports 301 1202ms
+2024-03-15T14:37:25Z 172.16.0.3 POST /api/users 200 963ms
+2024-03-15T14:37:28Z 203.0.113.17 PUT /api/users/12 301 762ms
+2024-03-15T14:37:29Z 10.0.0.7 DELETE /api/users/34 404 1541ms
+2024-03-15T14:37:33Z 203.0.113.17 DELETE /api/orders/9971 201 1570ms
+15-Mar-2024 14:37:35 203.0.113.17 GET /api/orders/9971 404 1091ms
+2024-03-15T14:37:35Z 192.168.1.42 GET /api/orders/9971 - 424ms
+2024-03-15T14:37:40Z 10.0.0.7 PUT /api/orders/9971 404 248ms
+2024/03/15 14:37:42 10.0.0.9 GET /api/orders/9971 404 1666ms
+2024-03-15T14:37:46Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 200 1154ms
+2024/03/15 14:37:50 172.16.0.3 GET /api/export 301 1682ms
+2024-03-15T14:37:52Z 192.168.1.42 delete /api/reports 200 1118ms
+2024-03-15T14:37:52Z 192.168.1.42 DELETE /api/users 301 0.847s
+1710513474 10.0.0.9 PUT /api/export 404 1790ms
+2024-03-15T14:37:57Z 203.0.113.17 POST /api/reports 200 375ms
+2024-03-15T14:38:01Z 10.0.0.7 POST /api/users 200 621ms
+2024/03/15 14:38:05 203.0.113.17 DELETE /api/orders/9971 403 1696ms
+2024-03-15T14:38:08Z 10.0.0.7 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 75ms
+2024-03-15T14:38:11Z 192.168.1.42 post /api/users/550e8400-e29b-41d4-a716-446655440000 200 216ms
+2024-03-15T14:38:16Z 203.0.113.17 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 833ms
+2024-03-15T14:38:20Z 10.0.0.7 GET /api/users/34 500 602ms
+{"timestamp": "2024-03-15T14:38:22Z", "ip": "203.0.113.17", "method": "PUT", "path": "/api/orders/abcdef1234567890ab", "status": 502, "response_ms": 1592}
+2024-03-15T14:38:24Z 10.0.0.7 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 403 625ms
+2024-03-15T14:38:27Z 203.0.113.17 POST /api/export 500 1025ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T14:38:32Z 10.0.0.9 DELETE /api/users/34 301 780ms
+1710513513 10.0.0.9 POST /api/users/550e8400-e29b-41d4-a716-446655440000 301 1766ms
+{"timestamp": "2024-03-15T14:38:35Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/export", "status": 403, "response_ms": 1151}
+2024-03-15T14:38:39Z 10.0.0.7 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 401 1334ms
+2024-03-15T14:38:40Z 172.16.0.3 GET /api/orders/9971 201 0.115s
+2024-03-15T14:38:42Z 203.0.113.17 PATCH /api/users 200 395ms
+15-Mar-2024 14:38:47 203.0.113.17 POST /api/health 201 1790ms
+
+2024-03-15T14:38:50Z 10.0.0.7 GET /api/health 201 1434ms
+2024-03-15T14:38:52Z 10.0.0.7 PATCH /api/reports 301 789ms
+2024-03-15T14:38:55Z 172.16.0.3 PUT /api/login 401 1060ms
+2024-03-15T14:39:00Z 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 401 650ms
+2024-03-15T14:39:03Z 10.0.0.7 POST /api/users 301 1143ms
+2024-03-15T14:39:08Z 10.0.0.9 put /api/users/34 201 685ms
+2024-03-15T14:39:10Z 10.0.0.7 DELETE /api/orders/9971 401 537ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T14:39:18Z 172.16.0.3 POST /api/users/34 500 1010ms
+2024-03-15T14:39:20Z 203.0.113.17 GET /api/orders/9971 - 1728ms
+2024-03-15T14:39:20Z 192.168.1.42 GET /api/export 200 1735
+2024-03-15T14:39:22Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 943ms
+2024-03-15T14:39:25Z 203.0.113.17 DELETE /api/health 200 23ms
+2024-03-15T14:39:30Z 192.168.1.42 GET /api/orders/9971 301 1107ms
+2024-03-15T14:39:32Z 10.0.0.9 POST /api/users/12 200 1083ms
+2024-03-15T14:39:34Z 203.0.113.17 PATCH /api/login 401 557ms
+2024-03-15T14:39:37Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 201 1437ms
+2024-03-15T14:39:39Z 192.168.1.42 GET /api/users/12 403 786ms
+2024-03-15T14:39:42Z 192.168.1.42 GET /api/users/34 200 1033ms
+2024-03-15T14:39:46Z 172.16.0.3 patch /api/users/12 500 1892ms
+2024-03-15T14:39:46Z 203.0.113.17 DELETE /api/login 200 1902ms
+15-Mar-2024 14:39:47 172.16.0.3 PATCH /api/orders/abcdef1234567890ab 200 377ms
+  at com.example.Service.process(Service.java:101)
+1710513588 10.0.0.9 GET /api/login 200 1164ms
+2024-03-15T14:39:51Z 10.0.0.9 PATCH /api/reports 403 1557ms
+{"timestamp": "2024-03-15T14:39:52Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/reports", "status": 200, "response_ms": 210}
+2024-03-15T14:39:55Z 192.168.1.42 PUT /api/orders/abcdef1234567890ab 502 1965ms
+2024-03-15T14:40:00Z 172.16.0.3 GET /api/login 404 1014ms
+2024-03-15T14:40:02Z 10.0.0.9 DELETE /api/users/34 502 1363ms
+2024-03-15T14:40:06Z 203.0.113.17 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 178ms
+2024-03-15T14:40:08Z 10.0.0.7 DELETE /api/reports 401 228ms
+2024-03-15T14:40:09Z 172.16.0.3 DELETE /api/reports 301 219ms
+2024-03-15T14:40:10Z 10.0.0.9 DELETE /api/orders/9971 500 1059ms
+2024-03-15T14:40:13Z 192.168.1.42 PUT /api/orders/9971 200 1232ms
+{"timestamp": "2024-03-15T14:40:18Z", "ip": "10.0.0.9", "method": "GET", "path": "/api/login", "status": 403, "response_ms": 804}
+15-Mar-2024 14:40:19 203.0.113.17 POST /api/orders/abcdef1234567890ab 500 357ms
+2024-03-15T14:40:21Z 172.16.0.3 PUT /api/health 200 139ms
+2024-03-15T14:40:22Z 10.0.0.9 PUT /api/health 200 749ms
+2024-03-15T14:40:24Z 10.0.0.9 PATCH /api/orders/abcdef1234567890ab 201 947
+2024-03-15T14:40:25Z 192.168.1.42 DELETE /api/reports 502 788ms
+2024-03-15T14:40:28Z 10.0.0.9 PATCH /api/users/34 301 666ms
+2024-03-15T14:40:30Z 10.0.0.7 DELETE /api/reports 301 1515ms
+  File "app.py", line 42, in handle_request
+2024-03-15T14:40:37Z 10.0.0.9 PUT /api/users/12 502 419ms
+{"timestamp": "2024-03-15T14:40:42Z", 
+{"timestamp": "2024-03-15T14:40:45Z", "ip": "192.168.1.42", "method": "DELETE", "path": "/api/health", "status": 200, "response_ms": 1307}
+2024-03-15T14:40:48Z 10.0.0.7 DELETE /api/export 200 929ms
+2024-03-15T14:40:53Z 10.0.0.9 PATCH /api/orders/9971 403 1123ms
+{"timestamp": "2024-03-15T14:40:53Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/orders/abcdef1234567890ab", "status": 200, "response_ms": 233}
+15-Mar-2024 14:40:55 172.16.0.3 POST /api/orders/abcdef1234567890ab 200 1163ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T14:40:59Z 172.16.0.3 POST /api/orders/9971 500 1152ms
+2024/03/15 14:41:04 10.0.0.7 DELETE /api/reports 403 958ms
+{"timestamp": "2024-03
+{"timestamp": "2024-03-15T14:41:08Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/login", "status": 401, "response_ms": 942}
+2024-03-15T14:41:10Z 172.16.0.3 DELETE /api/users/12 404 1488ms
+2024-03-15T14:41:14Z 172.16.0.3 GET /api/users/12 200 1749ms
+2024-03-15T14:41:17Z 10.0.0.7 post /api/orders/9971 200 1140ms
+2024-03-15T14:41:18Z 10.0.0.9 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 403 1299ms
+2024-03-15T14:41:20Z 10.0.0.9 DELETE /api/users 502 1818ms
+2024-03-15T14:41:21Z 10.0.0.9 DELETE /api/users 201 431ms
+1710513684 192.168.1.42 PATCH /api/users/12 500 392ms
+2024-03-15T14:41:27Z 10.0.0.9 GET /api/login 404 1090ms
+2024-03-15T14:41:29Z 203.0.113.17 delete /api/orders/abcdef1234567890ab 200 722ms
+{"timestamp": "2024-03-15T14:41:32Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/login", "status": 502, "response_ms": 1218}
+2024/03/15 14:41:33 172.16.0.3 GET /api/users/550e8400-e29b-41d4-a716-446655440000 301 249ms
+15-Mar-2024 14:41:36 203.0.113.17 DELETE /api/export 502 292ms
+2024-03-15T14:41:40Z 203.0.113.17 POST /api/orders/9971 200 1012ms
+2024-03-15T14:41:42Z 172.16.0.3 DELETE /api/orders/abcdef1234567890ab 200 1782ms
+
+2024-03-15T14:41:50Z 10.0.0.9 PATCH /api/orders/9971 404 847ms
+2024-03-15T14:41:54Z 10.0.0.9 DELETE /api/users/34 200 1167ms
+{"timestamp": "2024-03-15T14:41:54Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users", "status": 301, "response_ms": 470}
+2024-03-15T14:41:59Z 10.0.0.9 PATCH /api/health 500 1056ms
+2024-03-15T14:42:00Z 172.16.0.3 patch /api/reports 500 1694ms
+1710513720 10.0.0.9 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 403 219ms
+2024-03-15T14:42:02Z 192.168.1.42 DELETE /api/login 401 1775ms
+2024-03-15T14:42:03Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 502 1421ms
+2024-03-15T14:42:06Z 203.0.113.17 DELETE /api/users/34 502 295ms "curl/7.88.1"
+{"timestamp": "2024-03-15T14:42:08Z", "ip": "203.0.113.17", "method": "PUT", "path": "/api/orders/9971", "status": 301, "response_ms": 1232}
+2024-03-15T14:42:12Z 172.16.0.3 PUT /api/orders/abcdef1234567890ab 301 1960ms
+2024-03-15T14:42:17Z 192.168.1.42 POST /api/export 200 577ms "broken user agent not closed
+2024/03/15 14:42:18 10.0.0.7 POST /api/users/34 401 1706ms
+2024-03-15T14:42:21Z 203.0.113.17 PUT /api/export 403 935ms
+2024-03-15T14:42:22Z 192.168.1.42 delete /api/orders/9971 301 1432ms
+2024-03-15T14:42:25Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 200 1789ms
+1710513746 10.0.0.9 PUT /api/users/12 500 824ms
+  File "app.py", line 42, in handle_request
+2024-03-15T14:42:32Z 172.16.0.3 PUT /api/orders/9971 502 277ms
+2024-03-15T14:42:36Z 172.16.0.3 GET /api/users 200 1292ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:42:37Z 10.0.0.7 DELETE /api/health 200 1972ms
+2024-03-15T14:42:40Z 10.0.0.7 PUT /api/users/34 301 201ms
+2024-03-15T14:42:43Z 172.16.0.3 POST /api/users 403 1291ms
+2024/03/15 14:42:46 10.0.0.7 DELETE /api/users/12 200 12ms
+2024-03-15T14:42:50Z 203.0.113.17 POST /api/orders/9971 404 29ms
+2024/03/15 14:42:50 192.168.1.42 DELETE /api/users/34 404 155ms
+2024-03-15T14:42:53Z 192.168.1.42 GET /api/reports 401 1814ms
+2024-03-15T14:42:56Z 10.0.0.7 POST /api/users/12 500 1163ms
+2024-03-15T14:42:56Z 10.0.0.7 delete /api/reports 201 1296ms
+2024-03-15T14:42:57Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 - 1846ms
+2024-03-15T14:42:58Z 192.168.1.42 PATCH /api/export 401 1982ms
+2024-03-15T14:43:02Z 10.0.0.7 POST /api/login 200 518ms
+2024-03-15T14:43:07Z 203.0.113.17 put /api/users 301 430ms
+2024-03-15T14:43:11Z 10.0.0.7 delete /api/login 200 1615ms
+2024-03-15T14:43:13Z 192.168.1.42 POST /api/health 502 155ms
+2024-03-15T14:43:17Z 192.168.1.42 PUT /api/reports 200 802ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:43:21Z 10.0.0.7 DELETE /api/users/12 200 1212ms
+2024-03-15T14:43:21Z 10.0.0.7 GET /api/users 403 1047ms
+2024-03-15T14:43:24Z 203.0.113.17 delete /api/export 403 178ms
+2024-03-15T14:43:28Z 10.0.0.7 PUT /api/users/12 301 171ms
+2024-03-15T14:43:32Z 10.0.0.7 PATCH /api/reports 403 1.211s
+2024-03-15T14:43:33Z 10.0.0.9 POST /api/users 201 186ms
+2024-03-15T14:43:37Z 203.0.113.17 PATCH /api/users 301 1374ms
+2024-03-15T14:43:38Z 10.0.0.7 GET /api/users/34 404 1961ms
+2024-03-15T14:43:41Z 172.16.0.3 POST /api/reports 200 1545ms
+1710513823 192.168.1.42 GET /api/reports 403 567ms
+2024-03-15T14:43:48Z 203.0.113.17 GET /api/health 404 1056ms
+2024-03-15T14:43:51Z 203.0.113.17 POST /api/reports 200 532ms
+2024-03-15T14:43:52Z 192.168.1.42 POST /api/orders/9971 200 100ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:43:54Z 172.16.0.3 DELETE /api/users/34 200 1917ms
+2024-03-15T14:43:54Z 10.0.0.9 POST /api/reports 201 862ms
+2024-03-15T14:43:57Z 192.168.1.42 PATCH /api/reports 200 1038ms
+2024-03-15T14:43:58Z 203.0.113.17 GET /api/export 200 1806ms
+2024-03-15T14:44:02Z 172.16.0.3 PUT /api/users/12 500 945ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:44:05Z 203.0.113.17 PUT /api/orders/abcdef1234567890ab 201 960ms
+2024-03-15T14:44:08Z 10.0.0.9 post /api/orders/9971 201 318ms
+2024-03-15T14:44:08Z 192.168.1.42 POST /api/orders/9971 401 1.312s
+
+1710513848 10.0.0.9 PUT /api/users/12 201 1095ms
+2024-03-15T14:44:10Z 192.168.1.42 POST /api/login 200 99ms
+2024-03-15T14:44:12Z 203.0.113.17 DELETE /api/reports 404 1541ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:44:17Z 10.0.0.7 DELETE /api/users/12 502 1172ms
+2024-03-15T14:44:18Z 10.0.0.7 POST /api/login 301 1752ms
+2024-03-15T14:44:20Z 10.0.0.9 PUT /api/reports 404 0.566s
+2024-03-15T14:44:22Z 10.0.0.7 POST /api/orders/abcdef1234567890ab 200 328ms
+2024-03-15T14:44:23Z 10.0.0.9 PUT /api/export 200 1107ms
+  File "app.py", line 42, in handle_request
+2024-03-15T14:44:30Z 172.16.0.3 GET /api/users/12 200 1663ms
+{"timestamp": "2024-03-15T14:44:33Z", "ip": "203.0.113.17", "method": "GET", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 401, "response_ms": 313}
+15-Mar-2024 14:44:34 172.16.0.3 DELETE /api/orders/9971 200 1396ms
+{"timestamp": "2024-03-15T14:44:36Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/export", "status": 404, "response_ms": 1148}
+2024-03-15T14:44:40Z 10.0.0.9 GET /api/users/34 200 34ms
+{"timestamp": "2024-03-15T14:44:41Z", "ip": "10.0.0.7", "method": "POST", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 403, "response_ms": 772}
+2024-03-15T14:44:42Z 172.16.0.3 get /api/users 200 414ms
+{"timestamp": "2024-03-15T14:44:46Z", "ip": "192.168.1.42", "method": "PUT", "path": "/api/users/12", "status": 200, "response_ms": 1939}
+2024-03-15T14:44:49Z 203.0.113.17 DELETE /api/export 404 70ms
+15-Mar-2024 14:44:53 10.0.0.7 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 573ms
+2024-03-15T14:44:56Z 192.168.1.42 PATCH /api/orders/abcdef1234567890ab 502 513ms "python-requests/2.31.0"
+2024-03-15T14:45:01Z 203.0.113.17 DELETE /api/users 200 582ms
+2024-03-15T14:45:04Z 10.0.0.7 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 500 1637ms
+2024-03-15T14:45:04Z 172.16.0.3 DELETE /api/orders/9971 404 714ms "broken user agent not closed
+2024-03-15T14:45:09Z 10.0.0.9 PUT /api/users/34 200 663ms
+2024-03-15T14:45:14Z 172.16.0.3 GET /api/health 500 742ms
+{"timestamp": "2024-03-15T14:45:19Z", "ip": "10.0.0.7", "path": "/api/users/550e
+1710513919 10.0.0.7 PATCH /api/export 401 1925ms
+2024-03-15T14:45:21Z 203.0.113.17 PUT /api/reports 502 67ms
+2024-03-15T14:45:24Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 201 1723
+2024-03-15T14:45:28Z 10.0.0.7 DELETE /api/users 200 125ms
+2024-03-15T14:45:30Z 192.168.1.42 patch /api/health 200 689ms
+{"timestamp": "2024-03-15T14:45:32Z", "ip": "172.16.0.3", "method": "POST", "path": "/api/reports", "status": 200, "response_ms": 54}
+2024-03-15T14:45:33Z 10.0.0.7 get /api/orders/9971 401 1977ms
+2024-03-15T14:45:34Z 10.0.0.9 PATCH /api/users/12 401 628ms
+2024-03-15T14:45:36Z 10.0.0.7 DELETE /api/health 401 366ms
+2024/03/15 14:45:41 203.0.113.17 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 502 1678ms
+2024-03-15T14:45:44Z 172.16.0.3 POST /api/users/34 200 1953ms
+2024-03-15T14:45:49Z 203.0.113.17 GET /api/users/34 502 661ms
+2024-03-15T14:45:51Z 192.168.1.42 delete /api/users/34 401 1536ms
+2024-03-15T14:45:52Z 172.16.0.3 POST /api/users/12 401 924ms
+2024-03-15T14:45:52Z 10.0.0.7 GET /api/reports 301 1621ms
+2024/03/15 14:45:53 192.168.1.42 DELETE /api/health 403 1994ms
+2024-03-15T14:45:56Z 10.0.0.9 PUT /api/orders/9971 403 217ms
+{"timestamp": "2024-03-15T14:46:01Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users/34", "status": 404, "response_ms": 160}
+2024-03-15T14:46:01Z 172.16.0.3 PUT /api/users/12 200 710ms
+2024-03-15T14:46:02Z 10.0.0.7 GET /api/orders/9971 200 702ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:46:03Z 10.0.0.7 PATCH /api/export 200 119ms
+2024-03-15T14:46:04Z 10.0.0.7 DELETE /api/orders/9971 500 553ms
+2024-03-15T14:46:06Z 192.168.1.42 GET /api/export 502 1135ms
+2024-03-15T14:46:10Z 172.16.0.3 GET /api/export 200 613ms
+2024-03-15T14:46:14Z 192.168.1.42 POST /api/users/34 301 177ms
+{"timestamp": "2024-03-15T14:46:18Z", "ip": "172.16.0.3", "method": "DELETE", "path": "/api/health", "status": 404, "response_ms": 1842}
+2024-03-15T14:46:20Z 203.0.113.17 DELETE /api/users/34 401 1823ms
+2024-03-15T14:46:24Z 10.0.0.9 GET /api/login 404 962ms
+2024-03-15T14:46:26Z 172.16.0.3 PATCH /api/users 200 1550ms
+2024-03-15T14:46:27Z 172.16.0.3 PATCH /api/export 502 475ms
+2024-03-15T14:46:31Z 10.0.0.9 PATCH /api/export 500 1417ms
+2024-03-15T14:46:35Z 10.0.0.7 delete /api/login 200 818ms
+2024-03-15T14:46:36Z 203.0.113.17 PATCH /api/orders/abcdef1234567890ab 200 256ms
+2024-03-15T14:46:40Z 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 97ms
+2024-03-15T14:46:43Z 10.0.0.9 POST /api/users/34 502 538ms
+2024-03-15T14:46:46Z 192.168.1.42 GET /api/export - 823ms
+2024-03-15T14:46:51Z 172.16.0.3 PATCH /api/health 200 1620ms
+2024-03-15T14:46:55Z 10.0.0.9 GET /api/export 200 313ms
+2024-03-15T14:47:00Z 192.168.1.42 get /api/orders/abcdef1234567890ab 200 1619ms
+2024-03-15T14:47:03Z 172.16.0.3 DELETE /api/login 403 1351ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:47:07Z 192.168.1.42 post /api/login 403 304ms
+2024-03-15T14:47:11Z 172.16.0.3 POST /api/users 404 1895ms
+2024-03-15T14:47:13Z 192.168.1.42 PUT /api/login 301 584ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+  File "app.py", line 42, in handle_request
+2024-03-15T14:47:15Z 10.0.0.9 PUT /api/login 403 1248ms
+2024-03-15T14:47:16Z 10.0.0.7 DELETE /api/health 500 1786ms
+{"timestamp": "2024-03-15T14:47:19Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users/12", "status": 301, "response_ms": 1463}
+2024-03-15T14:47:23Z 203.0.113.17 PATCH /api/users 200 404ms
+{"timestamp": "2024-03-15T14:47:25Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/health", "status": 200, "response_ms": 1890}
+2024/03/15 14:47:28 172.16.0.3 PUT /api/health 500 822ms
+2024-03-15T14:47:29Z 10.0.0.9 PATCH /api/health 200 1977ms
+2024-03-15T14:47:33Z 172.16.0.3 put /api/users/34 301 1543ms
+2024-03-15T14:47:33Z 10.0.0.9 GET /api/users/34 502 1607ms
+2024-03-15T14:47:35Z 10.0.0.7 POST /api/login 403 1061ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:47:35Z 10.0.0.7 POST /api/orders/abcdef1234567890ab 200 468ms
+2024-03-15T14:47:38Z 172.16.0.3 put /api/export 403 1754ms
+2024-03-15T14:47:41Z 10.0.0.7 DELETE /api/login 500 1698ms
+2024-03-15T14:47:44Z 192.168.1.42 patch /api/reports 500 1335ms
+2024-03-15T14:47:49Z 172.16.0.3 get /api/health 200 698ms
+2024-03-15T14:47:51Z 172.16.0.3 put /api/login 201 317ms
+1710514076 192.168.1.42 PATCH /api/export 401 1404ms
+15-Mar-2024 14:47:57 10.0.0.9 PUT /api/login 403 838ms
+2024-03-15T14:47:57Z 203.0.113.17 post /api/reports 201 1415ms
+2024-03-15T14:48:02Z 10.0.0.9 put /api/orders/9971 301 1741ms
+{"timestamp": "2024-03-15T14:48:03Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/login", "status": 200, "response_ms": 974}
+1710514084 203.0.113.17 POST /api/reports 200 465ms
+2024-03-15T14:48:07Z 172.16.0.3 DELETE /api/reports 401 543ms
+2024-03-15T14:48:12Z 192.168.1.42 DELETE /api/users 502 1198ms
+2024-03-15T14:48:13Z 10.0.0.7 PATCH /api/users/12 403 1095ms
+2024-03-15T14:48:15Z 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 401 848ms
+2024-03-15T14:48:20Z 10.0.0.9 POST /api/reports 200 1605ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:48:24Z 10.0.0.7 PUT /api/users 200 935ms
+2024-03-15T14:48:27Z 10.0.0.7 PATCH /api/users/34 404 1618ms
+2024-03-15T14:48:27Z 10.0.0.9 DELETE /api/export 403 1986ms
+2024-03-15T14:48:32Z 192.168.1.42 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 401 1955ms
+2024-03-15T14:48:32Z 203.0.113.17 POST /api/users 200 1293ms "curl/7.88.1"
+15-Mar-2024 14:48:34 172.16.0.3 PUT /api/users/34 200 795ms
+2024-03-15T14:48:35Z 192.168.1.42 PUT /api/login 404 1500ms
+2024-03-15T14:48:40Z 172.16.0.3 delete /api/users/34 401 1856ms
+2024-03-15T14:48:44Z 10.0.0.7 POST /api/export 200 477ms
+2024/03/15 14:48:46 10.0.0.7 POST /api/users 502 1043ms
+2024-03-15T14:48:47Z 192.168.1.42 DELETE /api/login 500 1286ms
+2024-03-15T14:48:47Z 192.168.1.42 get /api/users 200 1422ms
+2024-03-15T14:48:48Z 10.0.0.9 GET /api/orders/9971 301 981ms
+2024-03-15T14:48:50Z 192.168.1.42 PUT /api/export 200 1366ms
+2024-03-15T14:48:54Z 203.0.113.17 POST /api/export 200 1057ms
+2024-03-15T14:48:55Z 192.168.1.42 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 419ms
+{"timestamp": "2024-03-15T14:48:57Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/export", "status": 301, "response_ms": 338}
+2024-03-15T14:48:58Z 10.0.0.7 DELETE /api/reports 201 15ms
+2024/03/15 14:48:58 192.168.1.42 PATCH /api/health 200 1954ms
+2024-03-15T14:49:02Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 404 616ms
+2024-03-15T14:49:04Z 192.168.1.42 POST /api/users 301 747ms
+2024-03-15T14:49:07Z 192.168.1.42 GET /api/users 200 1754ms
+15-Mar-2024 14:49:08 10.0.0.7 PUT /api/reports 404 1966ms
+2024-03-15T14:49:09Z 172.16.0.3 POST /api/users/12 403 829ms
+2024-03-15T14:49:13Z 10.0.0.9 DELETE /api/export 200 241ms
+15-Mar-2024 14:49:14 192.168.1.42 POST /api/users/12 403 1876ms
+2024/03/15 14:49:19 10.0.0.7 PATCH /api/export 401 1262ms
+2024-03-15T14:49:20Z 10.0.0.9 GET /api/export 404 104ms
+2024-03-15T14:49:21Z 172.16.0.3 GET /api/orders/9971 502 1492ms
+2024-03-15T14:49:25Z 172.16.0.3 PATCH /api/orders/9971 502 205ms
+2024/03/15 14:49:29 10.0.0.7 DELETE /api/reports 403 314ms
+2024-03-15T14:49:29Z 10.0.0.7 patch /api/health 404 1790ms
+2024-03-15T14:49:31Z 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 401 1996ms
+2024-03-15T14:49:33Z 10.0.0.7 PATCH /api/export 403 1683ms
+2024-03-15T14:49:35Z 10.0.0.9 PATCH /api/health 200 1764ms
+2024-03-15T14:49:39Z 192.168.1.42 DELETE /api/users 200 836ms
+2024-03-15T14:49:43Z 203.0.113.17 GET /api/users/12 502 1982ms
+2024-03-15T14:49:45Z 203.0.113.17 POST /api/health 401 754ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+{"timestamp": "2024-03-15T14:49:47Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/orders/abcdef1234567890ab", "status": 502, "response_ms": 978}
+15-Mar-2024 14:49:50 192.168.1.42 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 709ms
+2024-03-15T14:49:53Z 172.16.0.3 GET /api/users 200 1018ms
+{"timestamp": "2024-03-15T14:49:54Z", "ip": "10.0.0.9", "method": "GET", "path": "/api/login", "status": 502, "response_ms": 411}
+2024-03-15T14:49:56Z 10.0.0.9 POST /api/health 201 1477ms
+2024-03-15T14:49:59Z 10.0.0.9 GET /api/orders/abcdef1234567890ab 200 1591ms
+2024-03-15T14:50:02Z 203.0.113.17 PATCH /api/users/34 404 18ms
+1710514207 203.0.113.17 DELETE /api/orders/abcdef1234567890ab 404 1903ms
+{"timestamp": "2024-03-15T14:50:11Z", "ip": "10.0.0.7", "method": "PATCH", "path": "/api/users/34", "status": 200, "response_ms": 222}
+2024/03/15 14:50:14 203.0.113.17 PUT /api/orders/9971 403 867ms
+2024-03-15T14:50:17Z 172.16.0.3 PUT /api/health 200 292ms
+2024-03-15T14:50:20Z 203.0.113.17 put /api/orders/9971 401 1467ms
+2024-03-15T14:50:25Z 10.0.0.7 post /api/orders/abcdef1234567890ab 301 1416ms
+2024-03-15T14:50:28Z 10.0.0.7 POST /api/orders/9971 500 1.431s
+15-Mar-2024 14:50:31 172.16.0.3 PATCH /api/health 502 1178ms
+2024-03-15T14:50:35Z 10.0.0.9 GET /api/orders/9971 200 61ms
+2024-03-15T14:50:38Z 192.168.1.42 POST /api/login 200 596ms
+2024-03-15T14:50:40Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 500 76ms
+{"timestamp": "2024-03-15T14:50:43Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/orders/9971", "status": 201, "response_ms": 1530}
+2024-03-15T14:50:48Z 203.0.113.17 PUT /api/users 403 803ms
+
+Traceback (most recent call last):
+1710514255 10.0.0.7 PATCH /api/health 201 1876ms
+1710514258 203.0.113.17 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 201 612ms
+2024-03-15T14:51:01Z 192.168.1.42 POST /api/users/34 500 254ms
+2024-03-15T14:51:05Z 172.16.0.3 PATCH /api/login 200 339ms
+{"timestamp": "2024-03-15T14:51:09Z", "ip": "192.168.1.42", "method": "PUT", "path": "/api/health", "status": 200, "response_ms": 91}
+2024-03-15T14:51:11Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 301 1.014s
+2024-03-15T14:51:16Z 192.168.1.42 PUT /api/orders/9971 201 1969ms
+2024-03-15T14:51:17Z 203.0.113.17 POST /api/export 500 1109ms
+2024-03-15T14:51:21Z 10.0.0.7 POST /api/reports 401 748ms
+2024-03-15T14:51:23Z 203.0.113.17 PATCH /api/health 500 1696ms
+2024-03-15T14:51:23Z 172.16.0.3 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 1891ms
+
+2024-03-15T14:51:28Z 192.168.1.42 DELETE /api/login 500 1492ms
+2024-03-15T14:51:31Z 203.0.113.17 PUT /api/orders/9971 500 922ms
+2024-03-15T14:51:35Z 10.0.0.7 PUT /api/orders/9971 200 1951ms
+2024-03-15T14:51:36Z 203.0.113.17 PATCH /api/users 200 441ms
+2024-03-15T14:51:37Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 1707ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+1710514298 10.0.0.7 GET /api/health 401 87ms
+2024-03-15T14:51:39Z 10.0.0.7 PUT /api/orders/9971 200 1187ms
+2024-03-15T14:51:41Z 10.0.0.9 DELETE /api/health - 896ms
+2024-03-15T14:51:44Z 192.168.1.42 PATCH /api/users 502 139ms
+2024-03-15T14:51:48Z 192.168.1.42 PUT /api/orders/9971 200 603ms
+2024-03-15T14:51:51Z 172.16.0.3 delete /api/export 403 1693ms
+2024-03-15T14:51:51Z 203.0.113.17 POST /api/users/34 403 1641ms
+2024-03-15T14:51:56Z 10.0.0.7 PUT /api/reports 200 1143ms
+2024-03-15T14:52:01Z 192.168.1.42 GET /api/orders/abcdef1234567890ab 502 817ms
+2024-03-15T14:52:05Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 401 443ms
+2024-03-15T14:52:09Z 203.0.113.17 POST /api/users/34 - 462ms
+2024-03-15T14:52:11Z 10.0.0.7 PATCH /api/users 500 954ms
+2024-03-15T14:52:15Z 192.168.1.42 PUT /api/users/12 201 1496ms
+2024-03-15T14:52:20Z 172.16.0.3 PUT /api/users/34 201 214ms
+2024-03-15T14:52:23Z 10.0.0.7 put /api/health 404 682ms
+15-Mar-2024 14:52:25 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 401 1664ms
+2024-03-15T14:52:29Z 172.16.0.3 POST /api/users/550e8400-e29b-41d4-a716-446655440000 403 576ms
+2024-03-15T14:52:32Z 172.16.0.3 DELETE /api/health 404 744ms
+2024-03-15T14:52:34Z 192.168.1.42 POST /api/orders/abcdef1234567890ab 200 1733ms
+2024-03-15T14:52:37Z 10.0.0.7 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 301 1512ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T14:52:38Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 502 839ms "curl/7.88.1"
+2024-03-15T14:52:38Z 203.0.113.17 PATCH /api/health 200 759ms
+2024-03-15T14:52:41Z 203.0.113.17 PUT /api/users/34 404 1036ms
+2024-03-15T14:52:46Z 172.16.0.3 PATCH /api/users 201 1746ms
+1710514367 10.0.0.7 DELETE /api/users/34 200 1169ms
+15-Mar-2024 14:52:52 10.0.0.7 DELETE /api/reports 200 458ms
+2024-03-15T14:52:54Z 172.16.0.3 POST /api/users 201 1070ms
+2024-03-15T14:52:57Z 10.0.0.9 GET /api/users 401 221ms
+2024-03-15T14:53:01Z 172.16.0.3 put /api/orders/abcdef1234567890ab 500 1177ms
+2024-03-15T14:53:03Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 200 1068ms
+2024-03-15T14:53:05Z 10.0.0.7 PATCH /api/export 401 1683ms
+2024-03-15T14:53:08Z 10.0.0.9 PATCH /api/users 500 1816ms
+2024-03-15T14:53:09Z 10.0.0.7 GET /api/orders/9971 301 443ms
+2024-03-15T14:53:10Z 172.16.0.3 PATCH /api/users/12 201 859ms
+2024/03/15 14:53:13 10.0.0.9 DELETE /api/health 201 1219ms
+2024-03-15T14:53:17Z 192.168.1.42 POST /api/orders/abcdef1234567890ab 502 339ms
+2024-03-15T14:53:18Z 192.168.1.42 patch /api/users/34 200 350ms
+2024-03-15T14:53:20Z 203.0.113.17 DELETE /api/orders/abcdef1234567890ab 502 1.315s
+2024-03-15T14:53:20Z 172.16.0.3 GET /api/users/550e8400-e29b-41d4-a716-446655440000 404 1252ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:53:24Z 10.0.0.9 PATCH /api/users/34 502 1690ms
+2024-03-15T14:53:26Z 203.0.113.17 put /api/users/34 401 1898ms
+2024-03-15T14:53:30Z 192.168.1.42 post /api/export 403 280ms
+2024-03-15T14:53:31Z 203.0.113.17 PATCH /api/export 200 1250ms
+2024-03-15T14:53:32Z 203.0.113.17 PATCH /api/users 500 1040ms
+2024-03-15T14:53:33Z 10.0.0.7 PATCH /api/orders/9971 200 1846ms
+2024-03-15T14:53:36Z 172.16.0.3 GET /api/orders/9971 403 479ms
+{"timestamp": "2024-03-15T14:53:40Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/orders/abcdef1234567890ab", "status": 502, "response_ms": 210}
+2024-03-15T14:53:44Z 10.0.0.9 POST /api/users/12 301 1235ms
+2024-03-15T14:53:49Z 10.0.0.7 GET /api/users 502 1080ms
+2024-03-15T14:53:50Z 10.0.0.9 POST /api/reports 403 751ms
+2024-03-15T14:53:51Z 203.0.113.17 PUT /api/login 500 877ms
+2024-03-15T14:53:55Z 172.16.0.3 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 403 1140ms
+2024-03-15T14:54:00Z 172.16.0.3 PATCH /api/orders/9971 404 529ms
+2024-03-15T14:54:03Z 10.0.0.9 post /api/users/12 201 924ms
+2024-03-15T14:54:04Z 203.0.113.17 DELETE /api/reports 500 1267ms
+2024-03-15T14:54:05Z 192.168.1.42 GET /api/users/34 404 1906ms
+2024-03-15T14:54:08Z 172.16.0.3 POST /api/reports 200 1257ms
+2024/03/15 14:54:09 10.0.0.9 PATCH /api/orders/9971 301 1467ms
+2024-03-15T14:54:10Z 10.0.0.9 get /api/users/550e8400-e29b-41d4-a716-446655440000 500 595ms
+2024-03-15T14:54:12Z 203.0.113.17 PATCH /api/orders/9971 201 1269ms
+15-Mar-2024 14:54:13 172.16.0.3 POST /api/users 200 187ms
+2024-03-15T14:54:17Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 201 1070ms
+1710514457 192.168.1.42 GET /api/orders/9971 301 1497ms
+2024-03-15T14:54:22Z 172.16.0.3 PUT /api/login - 1251ms
+2024-03-15T14:54:23Z 10.0.0.9 PATCH /api/users 301 368ms
+2024-03-15T14:54:27Z 203.0.113.17 GET /api/orders/9971 301 706ms
+{"timestamp": "2024-03-15T14:54:28Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/orders/abcdef1234567890ab", "status": 301, "response_ms": 1431}
+  at com.example.Service.process(Service.java:101)
+1710514476 172.16.0.3 DELETE /api/health 502 1775ms
+2024-03-15T14:54:36Z 172.16.0.3 GET /api/export 201 1396ms
+{"timestamp": "2024-03-15T14:54:38Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/orders/9971", "status": 500, "response_ms": 29}
+2024-03-15T14:54:40Z 192.168.1.42 DELETE /api/reports 200 1145ms
+2024-03-15T14:54:42Z 172.16.0.3 POST /api/orders/abcdef1234567890ab 301 384ms
+2024-03-15T14:54:43Z 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 301 433ms
+2024-03-15T14:54:45Z 10.0.0.7 PATCH /api/reports 200 1605ms
+2024-03-15T14:54:46Z 192.168.1.42 DELETE /api/orders/abcdef1234567890ab 200 1575ms
+
+2024-03-15T14:54:55Z 172.16.0.3 DELETE /api/orders/abcdef1234567890ab 301 1015ms
+---287
+2024-03-15T14:55:00Z 203.0.113.17 POST /api/users 500 1646ms
+2024-03-15T14:55:03Z 203.0.113.17 GET /api/orders/9971 401 816ms
+2024-03-15T14:55:05Z 192.168.1.42 PATCH /api/health 401 1421ms
+2024-03-15T14:55:05Z 10.0.0.7 DELETE /api/orders/abcdef1234567890ab 200 676ms
+2024-03-15T14:55:08Z 172.16.0.3 post /api/orders/9971 301 495ms
+2024-03-15T14:55:10Z 203.0.113.17 PUT /api/reports 200 1031ms
+2024-03-15T14:55:14Z 172.16.0.3 PUT /api/export 301 933ms
+2024-03-15T14:55:16Z 203.0.113.17 post /api/users/12 301 1656ms
+2024-03-15T14:55:18Z 10.0.0.9 POST /api/users/34 200 978ms
+2024-03-15T14:55:18Z 10.0.0.9 POST /api/orders/9971 500 1485ms
+{"timestamp": "2024-03-15T14:55:21Z", "ip": "172.16.0.3", "method": "PUT", "path": "/api/orders/9971", "status": 502, "response_ms": 107}
+2024-03-15T14:55:24Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 301 985ms
+2024-03-15T14:55:25Z 172.16.0.3 PUT /api/reports 401 1157ms
+2024-03-15T14:55:29Z 172.16.0.3 PUT /api/users 403 0.258s
+2024-03-15T14:55:32Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 502 1340ms "curl/7.88.1"
+2024-03-15T14:55:35Z 203.0.113.17 DELETE /api/health 200 790ms
+2024-03-15T14:55:37Z 10.0.0.7 POST /api/reports 403 1302ms
+2024-03-15T14:55:42Z 192.168.1.42 GET /api/users/34 401 477ms
+2024-03-15T14:55:45Z 172.16.0.3 PUT /api/orders/abcdef1234567890ab 403 565ms
+{"timestamp": "2024-03-15T14:55:49Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/orders/9971", "status": 404, "response_ms": 857}
+2024-03-15T14:55:50Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 301 1936ms
+2024-03-15T14:55:51Z 10.0.0.9 GET /api/users/12 200 1928ms
+2024-03-15T14:55:55Z 192.168.1.42 DELETE /api/orders/9971 200 222ms
+2024-03-15T14:55:57Z 192.168.1.42 delete /api/login 201 516ms
+2024-03-15T14:55:59Z 10.0.0.7 POST /api/orders/9971 200 68ms
+15-Mar-2024 14:56:00 172.16.0.3 DELETE /api/health 500 1924ms
+2024-03-15T14:56:04Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 502 945ms
+2024-03-15T14:56:09Z 203.0.113.17 PUT /api/reports 404 1115ms
+{"timestamp": "2024-03-15T14:56:11Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/reports", "status": 403, "response_ms": 542}
+2024-03-15T14:56:12Z 192.168.1.42 PATCH /api/users/34 401 597ms
+2024-03-15T14:56:16Z 10.0.0.9 DELETE /api/login 200 1578ms
+{"timestamp": "2024-03-15T14:56:20Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users", "status": 500, "response_ms": 775}
+2024-03-15T14:56:22Z 203.0.113.17 DELETE /api/export 201 344ms
+{"timestamp": "2024-03-15T14:56:25Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users/12", "status": 403, "response_ms": 1290}
+2024-03-15T14:56:27Z 203.0.113.17 PUT /api/login 500 1666ms
+2024-03-15T14:56:29Z 192.168.1.42 POST /api/users/34 301 236ms
+2024-03-15T14:56:33Z 172.16.0.3 patch /api/health 201 666ms
+2024-03-15T14:56:33Z 203.0.113.17 GET /api/users/34 200 587ms
+2024-03-15T14:56:36Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 318ms
+2024-03-15T14:56:36Z 172.16.0.3 DELETE /api/login 404 770ms
+15-Mar-2024 14:56:40 192.168.1.42 PUT /api/users/12 200 124ms
+2024-03-15T14:56:43Z 10.0.0.9 POST /api/users/550e8400-e29b-41d4-a716-446655440000 301 1683ms
+{"timestamp": "2024-03-15T14:56:46Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/export", "status": 404, "response_ms": 516}
+2024-03-15T14:56:47Z 192.168.1.42 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 404 806ms
+2024-03-15T14:56:49Z 10.0.0.7 GET /api/orders/9971 500 0.260s
+2024-03-15T14:56:52Z 172.16.0.3 POST /api/reports 200 1778ms
+  File "app.py", line 42, in handle_request
+2024-03-15T14:56:57Z 10.0.0.7 PUT /api/orders/abcdef1234567890ab 200 820ms
+2024-03-15T14:56:59Z 192.168.1.42 PATCH /api/health 502 327ms
+{"timestamp": "2024-03-15T14:57:02Z", "ip": "10.0.0.7", "method": "POST", "path": "/api/health", "status": 200, "response_ms": 1414}
+2024-03-15T14:57:05Z 192.168.1.42 GET /api/reports 200 1.446s
+{"timestamp": "2024-03-15T14:57:10Z", "ip": "10.0.0.7", "method": "DELETE", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 401, "response_ms": 1153}
+{"timestamp": "2024-03-15T14:57:13Z", "ip": "10.0.0.9", "method": "POST", "path": "/api/users", "status": 403, "response_ms": 743}
+2024-03-15T14:57:14Z 192.168.1.42 DELETE /api/health 500 613ms
+15-Mar-2024 14:57:18 10.0.0.7 PATCH /api/users/34 500 722ms
+2024-03-15T14:57:22Z 203.0.113.17 PATCH /api/users/34 200 1097ms
+2024-03-15T14:57:24Z 172.16.0.3 PATCH /api/reports 404 11ms
+2024-03-15T14:57:28Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 401 1599ms
+2024-03-15T14:57:30Z 192.168.1.42 PATCH /api/export 201 1083ms
+1710514654 10.0.0.7 PATCH /api/login 401 849ms
+2024-03-15T14:57:37Z 203.0.113.17 GET /api/users 200 375ms
+2024-03-15T14:57:37Z 10.0.0.9 POST /api/users/12 200 1179ms
+15-Mar-2024 14:57:41 203.0.113.17 PATCH /api/orders/abcdef1234567890ab 301 110ms
+2024-03-15T14:57:42Z 192.168.1.42 get /api/users/550e8400-e29b-41d4-a716-446655440000 404 1911ms
+2024-03-15T14:57:43Z 192.168.1.42 PUT /api/orders/9971 403 1693ms
+{"timestamp": "2024-03-15T14:57:46Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/login", "status": 500, "response_ms": 93}
+{"timestamp": "2024-03-15T14:57:47Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/orders/9971", "status": 200, "response_ms": 217}
+2024-03-15T14:57:49Z 10.0.0.7 POST /api/orders/9971 201 1177ms
+2024-03-15T14:57:51Z 203.0.113.17 DELETE /api/users/12 502 743ms
+15-Mar-2024 14:57:54 10.0.0.9 GET /api/users/34 200 1136ms
+2024-03-15T14:57:59Z 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 404 1921ms
+2024-03-15T14:58:02Z 203.0.113.17 PUT /api/reports - 1575ms
+{"timestamp": "2024-03-15T14:58:05Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 502, "response_ms": 1127}
+2024-03-15T14:58:07Z 203.0.113.17 PUT /api/reports 404 926ms
+2024-03-15T14:58:10Z 192.168.1.42 PUT /api/orders/abcdef1234567890ab 200 1070ms
+0CsrE2z)$*,,jc4WJjhxK-vtwCb,P
+2024-03-15T14:58:16Z 192.168.1.42 PUT /api/health - 1009ms
+{"timestamp": "2024-03-15T14:58:21Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/login", "status": 200, "response_ms": 1506}
+2024-03-15T14:58:26Z 192.168.1.42 PUT /api/reports 403 863ms
+2024-03-15T14:58:27Z 10.0.0.7 PATCH /api/users 403 120ms "python-requests/2.31.0"
+2024-03-15T14:58:32Z 203.0.113.17 PATCH /api/users/34 401 1038ms
+2024-03-15T14:58:33Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 502 1043ms
+2024-03-15T14:58:34Z 172.16.0.3 DELETE /api/users/34 200 698ms
+2024-03-15T14:58:35Z 192.168.1.42 PATCH /api/export 301 184ms
+2024-03-15T14:58:38Z 10.0.0.7 POST /api/health 500 415ms
+2024-03-15T14:58:43Z 203.0.113.17 POST /api/orders/9971 502 1516ms
+2024-03-15T14:58:47Z 192.168.1.42 PUT /api/export 401 1412ms
+2024-03-15T14:58:52Z 10.0.0.9 DELETE /api/reports 401 400ms
+2024-03-15T14:58:54Z 192.168.1.42 PUT /api/users/34 401 1272ms
+2024-03-15T14:58:58Z 10.0.0.9 get /api/users/550e8400-e29b-41d4-a716-446655440000 201 1413ms
+2024-03-15T14:59:01Z 192.168.1.42 GET /api/users 201 1953ms
+2024-03-15T14:59:03Z 172.16.0.3 GET /api/reports 200 634ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T14:59:07Z 10.0.0.7 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 201 1129ms
+1710514751 203.0.113.17 DELETE /api/orders/abcdef1234567890ab 200 1433ms
+2024-03-15T14:59:11Z 203.0.113.17 GET /api/login 200 133ms
+2024-03-15T14:59:14Z 203.0.113.17 PUT /api/users 404 1350ms
+2024-03-15T14:59:14Z 172.16.0.3 PUT /api/users/12 200 609ms
+2024-03-15T14:59:17Z 10.0.0.9 PATCH /api/users/12 401 1002ms
+2024-03-15T14:59:22Z 10.0.0.7 POST /api/orders/9971 404 1158ms
+2024-03-15T14:59:22Z 203.0.113.17 PUT /api/reports 404 815ms
+2024-03-15T14:59:24Z 172.16.0.3 PUT /api/login 201 1036ms
+{"timestamp": "2024-03-15T14:59:26Z", "ip": "172.16.0.3", "method": "DELETE", "path": "/api/users", "status": 500, "response_ms": 1953}
+2024-03-15T14:59:29Z 172.16.0.3 DELETE /api/users/34 200 1504ms
+2024-03-15T14:59:32Z 203.0.113.17 POST /api/export 201 1183ms
+2024-03-15T14:59:33Z 172.16.0.3 PATCH /api/reports 404 1120ms
+2024-03-15T14:59:34Z 10.0.0.7 PATCH /api/orders/9971 201 1776ms
+2024-03-15T14:59:36Z 203.0.113.17 POST /api/export 200 1353ms
+2024-03-15T14:59:40Z 172.16.0.3 GET /api/orders/9971 - 1952ms
+2024-03-15T14:59:41Z 10.0.0.7 GET /api/reports 403 1978ms
+2024-03-15T14:59:45Z 172.16.0.3 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 279ms
+2024-03-15T14:59:46Z 203.0.113.17 PATCH /api/login 502 1171ms
+2024-03-15T14:59:48Z 10.0.0.7 get /api/reports 200 1419ms
+2024-03-15T14:59:52Z 203.0.113.17 DELETE /api/reports 200 1755ms
+2024-03-15T14:59:56Z 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 201 76ms
+1710514799 192.168.1.42 PUT /api/export 201 1530ms
+1710514801 192.168.1.42 POST /api/health 502 1013ms
+2024-03-15T15:00:04Z 10.0.0.7 DELETE /api/export 200 1255ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:00:06Z 203.0.113.17 PATCH /api/orders/9971 500 1323ms
+2024-03-15T15:00:07Z 10.0.0.9 DELETE /api/users 201 1072ms
+2024-03-15T15:00:11Z 192.168.1.42 PATCH /api/export 500 1577ms
+2024-03-15T15:00:12Z 10.0.0.9 DELETE /api/login 301 954ms
+2024-03-15T15:00:13Z 203.0.113.17 GET /api/orders/9971 200 959ms
+2024-03-15T15:00:17Z 203.0.113.17 GET /api/users/34 502 1930ms
+2024-03-15T15:00:22Z 10.0.0.9 PUT /api/health 200 376ms
+2024-03-15T15:00:25Z 10.0.0.7 delete /api/users/12 301 673ms
+15-Mar-2024 15:00:27 192.168.1.42 GET /api/users/12 404 1308ms
+2024-03-15T15:00:28Z 10.0.0.9 PATCH /api/orders/abcdef1234567890ab 200 785ms
+2024-03-15T15:00:32Z 10.0.0.7 PUT /api/orders/abcdef1234567890ab 200 342ms
+2024-03-15T15:00:34Z 192.168.1.42 DELETE /api/login 301 1505ms
+2024-03-15T15:00:37Z 10.0.0.7 GET /api/users/34 201 17ms
+2024-03-15T15:00:39Z 10.0.0.9 DELETE /api/orders/9971 200 1255ms
+2024-03-15T15:00:44Z 203.0.113.17 DELETE /api/health 403 914ms
+2024-03-15T15:00:44Z 192.168.1.42 post /api/orders/9971 301 1279ms
+{"timestamp": "2024-03-15T15:00:49Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/users/34", "status": 200, "response_ms": 122}
+2024-03-15T15:00:52Z 192.168.1.42 PATCH /api/orders/abcdef1234567890ab 301 688ms
+2024-03-15T15:00:53Z 10.0.0.9 POST /api/users/34 301 1261ms
+2024-03-15T15:00:58Z 203.0.113.17 post /api/health 502 747ms
+2024-03-15T15:00:58Z 172.16.0.3 PUT /api/reports 403 1689ms
+1710514859 203.0.113.17 GET /api/login 404 285ms
+2024/03/15 15:01:00 172.16.0.3 PUT /api/orders/9971 403 1084ms
+2024-03-15T15:01:02Z 192.168.1.42 patch /api/orders/9971 200 1000ms
+2024-03-15T15:01:04Z 172.16.0.3 PUT /api/orders/9971 502 1286ms
+2024-03-15T15:01:07Z 203.0.113.17 PATCH /api/health 500 1.503s
+2024-03-15T15:01:11Z 10.0.0.7 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 301 406ms
+2024-03-15T15:01:11Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 502 859ms
+2024-03-15T15:01:15Z 172.16.0.3 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 200 1321ms
+15-Mar-2024 15:01:17 172.16.0.3 GET /api/login 301 1047ms
+2024-03-15T15:01:17Z 172.16.0.3 PUT /api/export 502 1271ms
+{"timestamp": "2024-03-15T15:01:17Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/reports", "status": 404, "response_ms": 1886}
+{"timestamp": "2024-03-15T15:01:21Z", "ip": "10.0.0.7", "method": "DELETE", "path": "/api/users/34", "status": 404, "response_ms": 1836}
+2024-03-15T15:01:26Z 10.0.0.9 DELETE /api/users 500 623ms "python-requests/2.31.0"
+2024-03-15T15:01:30Z 10.0.0.7 PATCH /api/reports 401 145ms
+2024-03-15T15:01:32Z 192.168.1.42 PUT /api/export 500 1735ms
+2024-03-15T15:01:33Z 10.0.0.9 post /api/orders/abcdef1234567890ab 200 1780ms
+15-Mar-2024 15:01:36 172.16.0.3 GET /api/login 403 187ms
+2024-03-15T15:01:38Z 172.16.0.3 POST /api/orders/9971 301 368ms
+2024-03-15T15:01:39Z 192.168.1.42 POST /api/users/12 404 1046ms
+{"timestamp": "2024-03-15T15:01:39Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 401, "response_ms": 1901}
+1710514903 203.0.113.17 PUT /api/reports 200 1585ms
+{"timestamp": "2024-03-15T15:01:44Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 200, "response_ms": 950}
+2024/03/15 15:01:47 203.0.113.17 GET /api/users 301 1919ms
+2024-03-15T15:01:52Z 172.16.0.3 DELETE /api/users 200 1076ms "python-requests/2.31.0"
+2024-03-15T15:01:53Z 172.16.0.3 post /api/reports 201 404ms
+2024-03-15T15:01:55Z 172.16.0.3 DELETE /api/users/12 301 315ms
+2024-03-15T15:01:56Z 192.168.1.42 PATCH /api/orders/9971 500 219ms
+2024-03-15T15:01:58Z 203.0.113.17 PUT /api/login 200 1941ms
+2024-03-15T15:02:01Z 10.0.0.7 get /api/login 502 1837ms
+2024-03-15T15:02:03Z 192.168.1.42 POST /api/users 404 1859ms
+2024-03-15T15:02:04Z 192.168.1.42 GET /api/export 403 376ms
+2024-03-15T15:02:09Z 10.0.0.9 PATCH /api/reports 301 690ms "curl/7.88.1"
+2024-03-15T15:02:13Z 10.0.0.9 PATCH /api/users/34 200 1674ms
+2024-03-15T15:02:17Z 172.16.0.3 DELETE /api/health 201 1950ms
+2024-03-15T15:02:19Z 203.0.113.17 PUT /api/reports 403 385ms
+{"timestamp": "2024-03-15T15:02:22Z", "ip": "172.16.0.3", "method": "DELETE", "path": "/api/health", "status": 200, "response_ms": 143}
+2024-03-15T15:02:26Z 10.0.0.9 DELETE /api/users/34 301 1582ms
+2024-03-15T15:02:29Z 10.0.0.7 patch /api/users/12 403 1684ms
+2024-03-15T15:02:30Z 192.168.1.42 PUT /api/orders/9971 404 830ms
+2024-03-15T15:02:35Z 203.0.113.17 POST /api/orders/9971 200 997ms
+2024-03-15T15:02:38Z 10.0.0.7 PATCH /api/export 403 1171ms
+2024-03-15T15:02:41Z 10.0.0.7 POST /api/users/12 502 1723ms
+2024-03-15T15:02:45Z 203.0.113.17 DELETE /api/reports 500 209ms
+2024-03-15T15:02:49Z 10.0.0.9 GET /api/orders/abcdef1234567890ab 200 1413ms
+{"timestamp": "2024-03-15T15:02:54Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/health", "status": 200, "response_ms": 195}
+{"timestamp": "2024-03-15T15:02:56Z", "ip": "203.0.113.17", "method": "GET", "path": "/api/users/34", "status": 200, "response_ms": 937}
+2024-03-15T15:03:00Z 203.0.113.17 PATCH /api/health 201 431ms
+2024-03-15T15:03:03Z 172.16.0.3 DELETE /api/reports 200 1203ms
+2024-03-15T15:03:03Z 203.0.113.17 delete /api/users/34 301 137ms
+2024-03-15T15:03:06Z 192.168.1.42 GET /api/orders/9971 - 234ms
+2024-03-15T15:03:09Z 10.0.0.7 DELETE /api/orders/abcdef1234567890ab 403 1290ms "python-requests/2.31.0"
+2024-03-15T15:03:12Z 10.0.0.9 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 200 982ms
+2024-03-15T15:03:13Z 10.0.0.9 PUT /api/export 200 600ms
+2024-03-15T15:03:14Z 192.168.1.42 GET /api/users/34 404 1357ms
+  File "app.py", line 42, in handle_request
+2024-03-15T15:03:19Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 403 1286ms
+2024-03-15T15:03:20Z 10.0.0.9 PATCH /api/health 403 737ms
+2024-03-15T15:03:22Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 404 1744ms
+2024/03/15 15:03:24 172.16.0.3 DELETE /api/orders/9971 502 761ms
+2024-03-15T15:03:25Z 172.16.0.3 GET /api/orders/abcdef1234567890ab 404 1979ms
+2024-03-15T15:03:25Z 203.0.113.17 PUT /api/health 500 170ms
+2024-03-15T15:03:30Z 192.168.1.42 POST /api/health 200 1410ms "python-requests/2.31.0"
+2024-03-15T15:03:30Z 203.0.113.17 GET /api/health - 1059ms
+2024-03-15T15:03:34Z 172.16.0.3 delete /api/reports 301 602ms
+2024-03-15T15:03:36Z 203.0.113.17 PUT /api/orders/abcdef1234567890ab 301 135ms
+2024-03-15T15:03:40Z 203.0.113.17 get /api/login 502 65ms
+2024-03-15T15:03:42Z 10.0.0.7 PATCH /api/users/12 301 526ms
+2024-03-15T15:03:43Z 172.16.0.3 put /api/users 200 1246ms
+2024-03-15T15:03:45Z 10.0.0.7 DELETE /api/reports - 545ms
+2024-03-15T15:03:47Z 203.0.113.17 GET /api/reports 200 1991ms
+2024-03-15T15:03:48Z 10.0.0.7 delete /api/export 403 497ms
+15-Mar-2024 15:03:52 10.0.0.7 POST /api/orders/abcdef1234567890ab 401 121ms
+2024-03-15T15:03:53Z 10.0.0.9 DELETE /api/health 301 985ms
+2024-03-15T15:03:57Z 10.0.0.9 DELETE /api/login 200 1096ms
+2024-03-15T15:04:01Z 10.0.0.9 DELETE /api/reports 500 1408ms
+2024-03-15T15:04:02Z 203.0.113.17 PUT /api/export 502 1890ms
+2024-03-15T15:04:04Z 172.16.0.3 GET /api/login 502 811ms
+{"timestamp": "2024-03-15T15:04:08Z", "ip": "10.0.0.7", "method": "PATCH", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 500, "response_ms": 701}
+2024-03-15T15:04:09Z 192.168.1.42 GET /api/users/12 200 852ms
+2024-03-15T15:04:10Z 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 301 525ms
+2024-03-15T15:04:12Z 203.0.113.17 GET /api/users 502 1354ms
+
+2024/03/15 15:04:15 192.168.1.42 GET /api/orders/abcdef1234567890ab 200 779ms
+15-Mar-2024 15:04:16 172.16.0.3 PUT /api/health 200 1318ms
+1710515058 172.16.0.3 PUT /api/users/34 200 577ms
+2024-03-15T15:04:19Z 172.16.0.3 GET /api/login 301 374ms
+2024-03-15T15:04:23Z 10.0.0.7 PATCH /api/export 200 1331ms
+2024-03-15T15:04:27Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 1327ms
+2024-03-15T15:04:28Z 172.16.0.3 GET /api/users - 154ms
+2024/03/15 15:04:32 10.0.0.9 GET /api/health 200 1347ms
+2024/03/15 15:04:33 172.16.0.3 POST /api/reports 403 1186ms
+2024/03/15 15:04:37 10.0.0.9 DELETE /api/export 403 1738ms
+2024-03-15T15:04:42Z 10.0.0.9 DELETE /api/users/12 502 1106ms
+2024-03-15T15:04:45Z 172.16.0.3 DELETE /api/users 200 758ms
+2024-03-15T15:04:49Z 172.16.0.3 GET /api/health 301 1336ms "curl/7.88.1"
+2024-03-15T15:04:51Z 10.0.0.9 POST /api/login 403 1845ms
+2024-03-15T15:04:52Z 172.16.0.3 delete /api/users/12 404 1515ms
+2024-03-15T15:04:53Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 201 1011ms
+2024-03-15T15:04:57Z 203.0.113.17 PUT /api/health 500 1986ms
+Traceback (most recent call last):
+2024-03-15T15:05:01Z 172.16.0.3 GET /api/export 200 443ms
+2024-03-15T15:05:05Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 201 1904ms
+2024-03-15T15:05:06Z 10.0.0.7 DELETE /api/users 404 1867ms
+2024-03-15T15:05:06Z 10.0.0.7 GET /api/users/34 200 1862ms
+{"timestamp": "2024-03-15T15:05:09Z", "ip": "192.168.1.42", "method": "DELETE", "path": "/api/orders/abcdef1234567890ab", "status": 200, "response_ms": 1720}
+2024-03-15T15:05:14Z 192.168.1.42 GET /api/health 502 1646ms
+2024-03-15T15:05:16Z 10.0.0.7 DELETE /api/reports 403 674ms
+---559
+2024-03-15T15:05:18Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 200 697ms
+2024-03-15T15:05:19Z 10.0.0.7 DELETE /api/users/34 401 1143ms
+2024-03-15T15:05:20Z 203.0.113.17 GET /api/users/34 200 1630ms
+{"timestamp": "2024-03-15T15:05:23Z", "ip": "192.168.1.42", "method": "DELETE", "path": "/api/users/12", "status": 200, "response_ms": 24}
+2024-03-15T15:05:25Z 203.0.113.17 PUT /api/export 404 1.427s
+2024-03-15T15:05:26Z 172.16.0.3 PATCH /api/health 403 499ms
+2024-03-15T15:05:28Z 192.168.1.42 patch /api/users/34 404 1263ms
+2024-03-15T15:05:29Z 172.16.0.3 put /api/export 200 1152ms
+2024-03-15T15:05:31Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 401 1776ms
+2024-03-15T15:05:35Z 10.0.0.9 POST /api/login 200 406ms
+{"timestamp": "2024-03-15T15:05:36Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/users/34", "status": 200, "response_ms": 1382}
+2024-03-15T15:05:37Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 403 524ms
+2024-03-15T15:05:39Z 10.0.0.9 get /api/users/12 200 1904ms
+2024-03-15T15:05:44Z 192.168.1.42 DELETE /api/orders/9971 200 155ms
+15-Mar-2024 15:05:46 203.0.113.17 PATCH /api/reports 403 417ms
+{"timestamp": "2024-03-15T15:05:48Z", "ip": "172.16.0.3", "method": "POST", "path": "/api/users/12", "status": 201, "response_ms": 1520}
+2024-03-15T15:05:51Z 10.0.0.9 POST /api/users/12 404 1208ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:05:52Z 10.0.0.7 POST /api/orders/abcdef1234567890ab 404 374ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:05:55Z 10.0.0.7 PUT /api/login 201 697ms
+2024-03-15T15:05:56Z 203.0.113.17 GET /api/login 200 237ms
+2024-03-15T15:06:00Z 10.0.0.7 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 301 1246ms
+{"timestamp": "2024-03-15T15:06:02Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/orders/abcdef1234567890ab", "status": 500, "response_ms": 1761}
+2024-03-15T15:06:04Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 979ms
+2024-03-15T15:06:07Z 10.0.0.9 POST /api/users/550e8400-e29b-41d4-a716-446655440000 401 899ms
+2024-03-15T15:06:12Z 203.0.113.17 POST /api/orders/abcdef1234567890ab 200 865ms
+2024-03-15T15:06:13Z 10.0.0.9 PATCH /api/users 403 1097ms
+2024-03-15T15:06:16Z 192.168.1.42 DELETE /api/health 201 180ms
+1710515181 10.0.0.9 POST /api/users/34 401 615ms
+2024-03-15T15:06:23Z 192.168.1.42 get /api/health 301 341ms
+2024-03-15T15:06:27Z 203.0.113.17 GET /api/health 404 1590ms "curl/7.88.1"
+2024-03-15T15:06:30Z 172.16.0.3 DELETE /api/users 200 798ms
+2024-03-15T15:06:33Z 172.16.0.3 DELETE /api/login 502 1120ms
+{"timestamp": "2024-03-15T15:06:38Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/reports", "status": 200, "response_ms": 1064}
+2024-03-15T15:06:41Z 192.168.1.42 DELETE /api/reports 404 1277ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:06:44Z 203.0.113.17 GET /api/orders/9971 201 293ms
+2024-03-15T15:06:47Z 192.168.1.42 DELETE /api/orders/abcdef1234567890ab 201 1552ms
+2024-03-15T15:06:49Z 172.16.0.3 PATCH /api/export 301 121ms
+2024-03-15T15:06:49Z 10.0.0.9 DELETE /api/orders/9971 500 1708ms
+2024-03-15T15:06:50Z 203.0.113.17 PATCH /api/login 404 1281ms
+{"timestamp": "2024-03-15T15:06:54Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/health", "status": 200, "response_ms": 174}
+2024-03-15T15:06:57Z 172.16.0.3 GET /api/users/12 200 575ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:06:58Z 10.0.0.7 PATCH /api/users 301 863ms
+2024-03-15T15:07:03Z 10.0.0.9 PUT /api/export 404 1.520s
+2024-03-15T15:07:03Z 192.168.1.42 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 1330ms
+2024-03-15T15:07:06Z 172.16.0.3 PUT /api/health 502 1373ms
+{"timestamp": "2024-03-15T15:07:10Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/login", "status": 502, "response_ms": 280}
+2024-03-15T15:07:13Z 172.16.0.3 POST /api/health 401 1998ms
+1710515235 192.168.1.42 POST /api/reports 301 943ms
+2024-03-15T15:07:17Z 10.0.0.7 patch /api/login 200 369ms
+2024-03-15T15:07:18Z 192.168.1.42 GET /api/reports 502 269ms
+2024-03-15T15:07:22Z 10.0.0.7 POST /api/orders/9971 200 1373ms
+2024-03-382
+2024-03-15T15:07:28Z 10.0.0.7 PATCH /api/login 200 1895ms
+2024-03-15T15:07:29Z 10.0.0.9 POST /api/health 401 329ms
+  at com.example.Service.process(Service.java:101)
+2024-03-15T15:07:33Z 172.16.0.3 DELETE /api/login 502 1375ms
+{"timestamp": "2024-03-15T15:07:34Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/users/12", "status": 404, "response_ms": 1853}
+2024-03-15T15:07:35Z 203.0.113.17 GET /api/login 200 832ms
+2024-03-15T15:07:37Z 192.168.1.42 PUT /api/users 502 1323ms
+2024-03-15T15:07:38Z 10.0.0.7 put /api/users/550e8400-e29b-41d4-a716-446655440000 200 181ms
+{"timestamp": "2024-03-15T15:07:43Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/export", "status": 201, "response_ms": 1014}
+2024-03-15T15:07:46Z 203.0.113.17 get /api/reports 403 312ms
+2024-03-15T15:07:49Z 172.16.0.3 GET /api/login 401 729ms
+---90
+15-Mar-2024 15:07:54 10.0.0.9 DELETE /api/health 301 345ms
+2024-03-15T15:07:57Z 203.0.113.17 PATCH /api/users/12 200 435ms
+2024-03-15T15:08:00Z 203.0.113.17 PUT /api/users/12 502 1558ms
+2024-03-15T15:08:03Z 10.0.0.9 PUT /api/export 200 1148ms
+15-Mar-2024 15:08:07 10.0.0.7 POST /api/users/34 403 602ms
+{"timestamp": "2024-03-15T15:08:07Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/login", "status": 404, "response_ms": 1155}
+2024-03-15T15:08:11Z 192.168.1.42 POST /api/login 301 1967ms
+2024-03-15T15:08:15Z 172.16.0.3 DELETE /api/users/34 404 1867ms
+2024-03-15T15:08:17Z 172.16.0.3 DELETE /api/users/12 502 1536ms
+2024-03-15T15:08:20Z 203.0.113.17 delete /api/login 404 1431ms
+2024-03-15T15:08:21Z 203.0.113.17 GET /api/login 200 1201ms
+2024-03-15T15:08:22Z 10.0.0.9 POST /api/reports 200 118ms
+2024-03-15T15:08:24Z 172.16.0.3 GET /api/login 301 1094ms
+2024-03-15T15:08:25Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 200 1123ms
+2024-03-15T15:08:28Z 172.16.0.3 PUT /api/reports 200 1104ms "python-requests/2.31.0"
+2024-03-15T15:08:29Z 203.0.113.17 PUT /api/reports 404 853ms
+2024-03-15T15:08:32Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 1.040s
+{"timestamp": "2024-03-15T15:08:34Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/orders/9971", "status": 500, "response_ms": 1469}
+2024/03/15 15:08:38 192.168.1.42 DELETE /api/health 200 248ms
+2024-03-15T15:08:39Z 172.16.0.3 PUT /api/users/34 404 1832ms
+2024-03-15T15:08:44Z 172.16.0.3 POST /api/login 200 1534ms
+2024-03-15T15:08:45Z 10.0.0.7 POST /api/login 200 439ms
+GET /api708
+2024-03-15T15:08:47Z 10.0.0.9 DELETE /api/users 201 230ms
+{"timestamp": "2024-03-15T15:08:47Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/users", "status": 404, "response_ms": 253}
+2024-03-15T15:08:49Z 172.16.0.3 GET /api/users/12 200 1894ms
+2024-03-15T15:08:51Z 10.0.0.7 post /api/reports 200 195ms
+{"timestamp": "2024-03-15T15:08:53Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/reports", "status": 401, "response_ms": 338}
+{"timestamp": "2024-03-15T15:08:57Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/orders/9971", "status": 502, "response_ms": 149}
+{"timestamp": "2024-03-15T15:08:58Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 201, "response_ms": 1984}
+2024-03-15T15:09:00Z 203.0.113.17 GET /api/users/12 201 1895ms
+2024-03-15T15:09:04Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 200 910ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+{"timestamp": "2024-03-15T15:09:06Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 500, "response_ms": 476}
+2024-03-15T15:09:09Z 172.16.0.3 GET /api/health 200 1074ms
+2024-03-15T15:09:10Z 172.16.0.3 PUT /api/orders/9971 200 178ms
+2024-03-15T15:09:13Z 10.0.0.9 PUT /api/health 502 1517ms
+15-Mar-2024 15:09:16 10.0.0.9 POST /api/orders/9971 403 605ms
+2024-03-15T15:09:18Z 10.0.0.9 PUT /api/users/34 200 1390ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:09:19Z 203.0.113.17 GET /api/users/12 200 818ms
+15-Mar-2024 15:09:22 192.168.1.42 POST /api/users/12 401 417ms
+2024-03-15T15:09:24Z 10.0.0.9 get /api/users/550e8400-e29b-41d4-a716-446655440000 403 1495ms
+2024-03-15T15:09:28Z 203.0.113.17 PATCH /api/login 403 739ms
+15-Mar-2024 15:09:32 10.0.0.9 DELETE /api/orders/9971 301 311ms
+2024-03-15T15:09:33Z 10.0.0.9 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 70ms
+1710515374 192.168.1.42 DELETE /api/users 200 793ms
+2024-03-15T15:09:37Z 203.0.113.17 PATCH /api/users/12 200 1363ms
+1710515381 10.0.0.9 POST /api/login 404 1014ms
+2024-03-15T15:09:45Z 172.16.0.3 PATCH /api/orders/9971 200 1960ms
+NVEMUW44m*Cl!ThDN
+1710515390 203.0.113.17 DELETE /api/orders/9971 500 1181ms
+2024-03-15T15:09:54Z 10.0.0.7 PATCH /api/users 403 549ms
+2024-03-15T15:09:58Z 10.0.0.9 patch /api/reports 301 666ms
+2024-03-15T15:09:58Z 192.168.1.42 POST /api/reports 401 1667ms
+2024-03-15T15:10:03Z 172.16.0.3 DELETE /api/users/12 403 716ms
+2024-03-15T15:10:06Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 201 1337ms
+2024-03-15T15:10:09Z 192.168.1.42 put /api/users/12 401 357ms
+2024-03-15T15:10:09Z 192.168.1.42 DELETE /api/export 502 1064ms
+2024-03-15T15:10:13Z 10.0.0.9 PATCH /api/users 401 783ms
+2024-03-15T15:10:17Z 203.0.113.17 GET /api/health 200 1424ms
+2024-03-15T15:10:19Z 203.0.113.17 PUT /api/users/34 502 623ms
+  File "app.py", line 42, in handle_request
+2024-03-15T15:10:26Z 192.168.1.42 patch /api/users/550e8400-e29b-41d4-a716-446655440000 301 553ms
+2024-03-15T15:10:27Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 1531ms
+2024/03/15 15:10:28 203.0.113.17 GET /api/orders/abcdef1234567890ab 401 569ms
+{"timestamp": "2024-03-15T15:10:33Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 401, "response_ms": 1639}
+15-Mar-2024 15:10:33 172.16.0.3 PATCH /api/login 403 1368ms
+2024-03-15T15:10:35Z 172.16.0.3 PATCH /api/orders/9971 404 1385ms
+2024-03-15T15:10:40Z 192.168.1.42 PATCH /api/users/34 502 1032ms
+15-Mar-2024 15:10:41 10.0.0.9 PUT /api/orders/9971 502 1756ms
+2024/03/15 15:10:46 192.168.1.42 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 401 957ms
+2024-03-15T15:10:48Z 172.16.0.3 DELETE /api/export 401 1771ms
+2024-03-15T15:10:49Z 10.0.0.9 put /api/login 200 535ms
+2024-03-15T15:10:51Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 512ms
+2024-03-15T15:10:54Z 203.0.113.17 DELETE /api/export 200 423ms
+2024-03-15T15:10:55Z 192.168.1.42 PUT /api/login 500 370ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T15:10:56Z 192.168.1.42 PUT /api/orders/abcdef1234567890ab 301 1785ms
+2024-03-15T15:10:56Z 10.0.0.9 PUT /api/users/12 - 1941ms
+2024-03-15T15:10:58Z 203.0.113.17 PATCH /api/users/12 500 1370ms
+2024-03-15T15:11:02Z 203.0.113.17 PUT /api/health 200 497
+{"timestamp": "2024-03-15T15:11:03Z", "ip": "172.16.0.3", "method": "PUT", "path": "/api/orders/abcdef1234567890ab", "status": 403, "response_ms": 1660}
+2024-03-15T15:11:06Z 10.0.0.7 POST /api/users/12 200 0.448s
+2024-03-15T15:11:08Z 172.16.0.3 PATCH /api/users 404 1102ms
+2024/03/15 15:11:11 192.168.1.42 PUT /api/orders/9971 403 982ms
+2024-03-15T15:11:13Z 10.0.0.7 PUT /api/health 401 1692ms "python-requests/2.31.0"
+2024-03-15T15:11:14Z 203.0.113.17 get /api/users 201 528ms
+2024-03-15T15:11:18Z 172.16.0.3 GET /api/orders/9971 201 1766ms
+2024-03-15T15:11:22Z 10.0.0.9 PUT /api/login 200 1927ms
+2024-03-15T15:11:24Z 10.0.0.7 DELETE /api/reports 403 1626ms
+2024-03-15T15:11:24Z 192.168.1.42 DELETE /api/health 403 1907ms
+15-Mar-2024 15:11:27 192.168.1.42 POST /api/login 500 145ms
+2024-03-15T15:11:31Z 203.0.113.17 put /api/health 200 1570ms
+2024-03-15T15:11:31Z 10.0.0.7 delete /api/users/34 200 830ms
+2024-03-15T15:11:33Z 172.16.0.3 patch /api/users/12 200 333ms
+2024-03-15T15:11:35Z 10.0.0.7 PATCH /api/export 401 934ms
+2024-03-15T15:11:39Z 10.0.0.7 PUT /api/users/34 502 1703ms "python-requests/2.31.0"
+2024-03-15T15:11:42Z 10.0.0.9 PUT /api/users/34 403 1804ms
+2024-03-15T15:11:45Z 203.0.113.17 POST /api/users 200 1900
+2024-03-15T15:11:50Z 10.0.0.7 get /api/health 201 546ms
+2024-03-15T15:11:51Z 203.0.113.17 DELETE /api/orders/abcdef1234567890ab 301 315ms
+
+2024-03-15T15:11:53Z 192.168.1.42 GET /api/orders/9971 403 1593
+{"timestamp": "2024-03-15T15:11:57Z", "ip": "10.0.0.9", "method": "GET", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 201, "response_ms": 400}
+2024-03-15T15:11:59Z 10.0.0.9 DELETE /api/users/34 403 1763ms
+2024-03-15T15:12:01Z 172.16.0.3 post /api/export 200 846ms
+2024-03-15T15:12:02Z 172.16.0.3 POST /api/orders/abcdef1234567890ab 404 1868ms
+2024-03-15T15:12:05Z 10.0.0.9 GET /api/users 404 282ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024/03/15 15:12:09 10.0.0.9 PATCH /api/login 200 205ms
+2024-03-15T15:12:10Z 10.0.0.7 DELETE /api/reports 502 1933ms
+15-Mar-2024 15:12:15 192.168.1.42 GET /api/login 500 1279ms
+=====380
+  at com.example.Service.process(Service.java:101)
+2024-03-15T15:12:19Z 172.16.0.3 post /api/orders/9971 404 1915ms
+2024-03-15T15:12:22Z 10.0.0.7 GET /api/reports 500 896ms "curl/7.88.1"
+2024-03-15T15:12:24Z 192.168.1.42 POST /api/health 301 1541ms
+2024-03-15T15:12:27Z 172.16.0.3 PUT /api/orders/abcdef1234567890ab 301 1.068s
+2024-03-15T15:12:30Z 10.0.0.7 PUT /api/health 200 1148ms
+2024-03-15T15:12:33Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 83ms
+2024-03-15T15:12:37Z 10.0.0.9 DELETE /api/users/12 404 93ms
+2024-03-15T15:12:41Z 203.0.113.17 DELETE /api/health 404 240ms
+2024-03-15T15:12:42Z 192.168.1.42 POST /api/login 200 1719ms
+1710515564 172.16.0.3 PATCH /api/orders/abcdef1234567890ab 201 1205ms
+2024-03-15T15:12:44Z 203.0.113.17 POST /api/export 200 514ms
+15-Mar-2024 15:12:48 172.16.0.3 GET /api/login 200 817ms
+2024-03-15T15:12:53Z 192.168.1.42 PUT /api/users/34 200 0.176s
+{"timestamp": "2024-03-15T15:12:57Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/login", "status": 502, "response_ms": 1357}
+2024-03-15T15:12:57Z 192.168.1.42 PATCH /api/health 401 1950ms
+2024-03-15T15:13:02Z 192.168.1.42 PUT /api/reports 200 1533ms
+2024-03-15T15:13:03Z 203.0.113.17 DELETE /api/users/12 403 532ms
+2024-03-15T15:13:04Z 10.0.0.9 GET /api/users 201 343ms
+{"timestamp": "2024-03-15T15:13:07Z", "ip": "172.16.0.3", "method": "POST", "path": "/api/users/12", "status": 301, "response_ms": 1015}
+1710515591 172.16.0.3 PATCH /api/users/34 401 1372ms
+{"timestamp": "2024-03-15T15:13:12Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/health", "status": 404, "response_ms": 1823}
+2024-03-15T15:13:15Z 203.0.113.17 PATCH /api/export 200 1559ms
+{"timestamp": "2024-03-15T15:13:19Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/export", "status": 403, "response_ms": 200}
+2024-03-15T15:13:19Z 10.0.0.9 POST /api/users/34 404 1089ms
+2024-03-15T15:13:24Z 10.0.0.9 DELETE /api/users/12 404 625ms
+=====925
+{"timestamp": "2024-03-15T15:13:28Z", "ip": "203.0.113.17", "method": "DELETE", "path": "/api/login", "status": 502, "response_ms": 107}
+2024-03-15T15:13:32Z 192.168.1.42 PATCH /api/users/12 500 880ms
+2024-03-15T15:13:36Z 203.0.113.17 PUT /api/reports 301 1209ms
+1710515616 192.168.1.42 GET /api/health 200 1620ms
+{"timestamp": "2024-03-15T15:13:38Z", "ip": "192.168.1.42", "method": "GET", "path": "/api/export", "status": 301, "response_ms": 652}
+2024/03/15 15:13:43 10.0.0.9 PATCH /api/login 401 1989ms
+2024-03-15T15:13:45Z 203.0.113.17 PUT /api/users/12 403 1104ms
+2024-03-15T15:13:45Z 192.168.1.42 GET /api/users/34 404 952ms
+2024-03-15T15:13:48Z 203.0.113.17 DELETE /api/login 502 1675ms "python-requests/2.31.0"
+{"timestamp": "2024-03-15T15:13:52Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/users/34", "status": 200, "response_ms": 400}
+{"timestamp": "2024-03-15T15:13:53Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 404, "response_ms": 1338}
+2024-03-15T15:13:54Z 10.0.0.9 patch /api/users/550e8400-e29b-41d4-a716-446655440000 200 626ms
+2024-03-15T15:13:58Z 10.0.0.9 GET /api/users/12 200 1858ms
+1710515639 10.0.0.9 DELETE /api/health 200 1770ms
+2024-03-15T15:14:03Z 10.0.0.7 put /api/orders/abcdef1234567890ab 403 114ms
+2024-03-15T15:14:06Z 10.0.0.9 DELETE /api/health 502 1230ms
+{"timestamp": "2024-03-15T15:14:11Z", "ip": "192.168.1.42", "path": "/api/
+2024/03/15 15:14:13 203.0.113.17 GET /api/export 502 656ms
+2024-03-15T15:14:15Z 10.0.0.9 DELETE /api/users/12 404 1285ms "python-requests/2.31.0"
+15-Mar-2024 15:14:19 192.168.1.42 POST /api/login 201 971ms
+2024-03-15T15:14:22Z 10.0.0.7 PATCH /api/reports 502 1757ms
+2024-03-15T15:14:26Z 172.16.0.3 DELETE /api/export 401 1640ms
+{"timestamp": "2024-03-15T15:14:30Z", "ip": "10.0.0.7", "method": "PATCH", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 301, "response_ms": 1424}
+15-Mar-2024 15:14:31 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 1250ms
+{"timestamp": "2024-03-15T15:14:32Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 201, "response_ms": 1150}
+{"timestamp": "2024-03-15T15:14:32Z", "ip": "172.16.0.3", "path": "/api/repo
+{"timestamp": "2024-03-15T15:14:33Z", "ip": "172.16.0.3", "method": "DELETE", "path": "/api/users/12", "status": 502, "response_ms": 474}
+2024-03-15T15:14:34Z 10.0.0.9 PUT /api/reports 401 1585ms
+{"timestamp": "2024-03-15T15:14:34Z", "ip": "203.0.113.17", "method": "PUT", "path": "/api/users/34", "status": 500, "response_ms": 1247}
+2024/03/15 15:14:35 10.0.0.9 DELETE /api/users/12 200 1610ms
+2024-03-15T15:14:40Z 192.168.1.42 POST /api/users/12 201 1875ms
+2024-03-15T15:14:43Z 172.16.0.3 DELETE /api/orders/9971 404 1510ms
+2024-03-15T15:14:44Z 172.16.0.3 PUT /api/users/34 200 1747ms
+2024-03-15T15:14:46Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 404 709ms
+2024-03-15T15:14:48Z 192.168.1.42 PUT /api/reports 403 748ms
+2024-03-15T15:14:50Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 1652ms
+2024-03-15T15:14:54Z 10.0.0.9 DELETE /api/orders/9971 401 1942ms
+2024-03-15T15:14:54Z 192.168.1.42 PATCH /api/users/12 200 702ms
+2024-03-15T15:14:57Z 10.0.0.7 DELETE /api/users 403 1564ms
+15-Mar-2024 15:14:57 10.0.0.7 PATCH /api/users 500 615ms
+2024-03-15T15:15:01Z 203.0.113.17 PUT /api/reports 401 26ms "python-requests/2.31.0"
+2024-03-15T15:15:05Z 10.0.0.7 delete /api/health 201 1827ms
+2024-03-15T15:15:10Z 203.0.113.17 delete /api/reports 403 1598ms
+2024-03-15T15:15:11Z 192.168.1.42 GET /api/orders/9971 401 808ms "curl/7.88.1"
+rb$)D%Hk23(.xuCS#e7Lx#Jf6fVC
+1710515721 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 502 1168ms
+{"timestamp": "2024-03-15T15:15:25Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/login", "status": 301, "response_ms": 1375}
+2024/03/15 15:15:30 10.0.0.9 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 200 681ms
+2024-03-15T15:15:33Z 10.0.0.7 DELETE /api/export 200 198ms
+2024-03-15T15:15:34Z 10.0.0.7 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 404 169ms
+15-Mar-2024 15:15:37 10.0.0.9 PATCH /api/orders/9971 500 1605ms
+2024-03-15T15:15:39Z 10.0.0.9 delete /api/health 403 1697ms
+2024-03-15T15:15:40Z 10.0.0.7 DELETE /api/health 200 1992ms
+2024-03-15T15:15:45Z 192.168.1.42 POST /api/health 404 76ms "curl/7.88.1"
+2024-03-15T15:15:49Z 192.168.1.42 PATCH /api/export 200 257ms
+2024-03-15T15:15:52Z 192.168.1.42 patch /api/users/34 200 770ms
+B!3ii.R6DArn!0f)I85RZ,D+VHMY:
+1710515756 203.0.113.17 DELETE /api/health 404 315ms
+2024-03-15T15:15:59Z 203.0.113.17 PATCH /api/export 403 486ms
+2024-03-15T15:16:02Z 192.168.1.42 DELETE /api/login 200 1783ms
+2024/03/15 15:16:04 203.0.113.17 PUT /api/orders/9971 200 1328ms
+
+2024-03-15T15:16:10Z 192.168.1.42 patch /api/orders/9971 201 1547ms
+2024-03-15T15:16:14Z 192.168.1.42 GET /api/orders/9971 200 1980ms
+2024-03-15T15:16:14Z 10.0.0.7 POST /api/orders/abcdef1234567890ab 404 183ms
+2024-03-15T15:16:19Z 10.0.0.9 patch /api/users 404 1775ms
+2024-03-15T15:16:19Z 10.0.0.7 DELETE /api/users 500 659ms
+2024-03-15T15:16:22Z 192.168.1.42 GET /api/orders/9971 200 594ms
+2024-03-15T15:16:24Z 192.168.1.42 POST /api/login 403 1399ms
+2024-03-15T15:16:25Z 172.16.0.3 POST /api/users 200 620ms
+2024-03-15T15:16:28Z 10.0.0.7 DELETE /api/reports 301 779ms
+2024-03-15T15:16:29Z 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 201 1019ms
+1710515794 10.0.0.9 GET /api/login 200 661ms
+2024-03-15T15:16:38Z 192.168.1.42 DELETE /api/users 403 1307ms
+2024-03-15T15:16:40Z 192.168.1.42 PUT /api/orders/9971 - 1392ms
+2024-03-15T15:16:40Z 203.0.113.17 POST /api/login 502 843ms
+2024-03-15T15:16:44Z 203.0.113.17 POST /api/users/34 401 1116ms
+{"timestamp": "2024-03-15T15:16:46Z", "ip": "203.0.113.17", "method": "DELETE", "path": "/api/orders/9971", "status": 404, "response_ms": 95}
+{"timestamp": "2024-03-15T15:16:46Z", "ip": "203.0.113.17", "method": "PUT", "path": "/api/users/34", "status": 200, "response_ms": 133}
+2024-03-15T15:16:50Z 172.16.0.3 DELETE /api/reports 201 1208ms
+2024-03-15T15:16:54Z 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 200 625ms
+2024-03-15T15:16:55Z 192.168.1.42 POST /api/orders/9971 301 1808ms
+2024-03-15T15:16:59Z 203.0.113.17 PUT /api/reports 301 1551ms
+2024-03-15T15:17:02Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 404 1974ms
+2024-03-15T15:17:05Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 404 18ms
+2024/03/15 15:17:05 10.0.0.9 PATCH /api/health 403 1112ms
+2024-03-15T15:17:06Z 10.0.0.9 GET /api/reports 403 1704ms
+2024-03-15T15:17:09Z 192.168.1.42 GET /api/health 401 1927ms
+2024-03-15T15:17:11Z 10.0.0.7 GET /api/login 401 402ms
+{"timestamp": "2024-03-15T15:17:12Z", "ip": "172.16.0.3", "method": "POST", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 404, "response_ms": 1991}
+2024-03-15T15:17:15Z 10.0.0.9 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 200 411ms
+2024-03-15T15:17:18Z 172.16.0.3 PATCH /api/orders/9971 404 359ms
+2024-03-15T15:17:23Z 203.0.113.17 PATCH /api/orders/abcdef1234567890ab 200 143ms
+2024-03-15T15:17:28Z 192.168.1.42 POST /api/login 502 1762ms
+2024-03-15T15:17:30Z 172.16.0.3 POST /api/users 500 1268ms "python-requests/2.31.0"
+2024-03-15T15:17:34Z 192.168.1.42 DELETE /api/users 401 895ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:17:37Z 203.0.113.17 DELETE /api/health 401 1069ms
+2024-03-15T15:17:37Z 10.0.0.7 GET /api/login 403 1100ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:17:40Z 10.0.0.7 PUT /api/users/12 502 1664ms
+S9vplGD8c3ZT3.GwvdYuH6G%
+2024-03-15T15:17:42Z 203.0.113.17 PATCH /api/health 200 1290
+2024-03-15T15:17:46Z 192.168.1.42 get /api/users 403 651ms
+{"timestamp": "2024-03-15T15:17:47Z", "ip": "192.168.1.42", "method": "DELETE", "path": "/api/users", "status": 301, "response_ms": 1260}
+2024-03-15T15:17:50Z 192.168.1.42 PATCH /api/users 301 1750ms
+2024-03-15T15:17:53Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 1622ms
+2024-03-15T15:17:54Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 502 217ms
+2024/03/15 15:17:56 192.168.1.42 DELETE /api/orders/9971 401 1213ms
+2024-03-15T15:17:57Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 201 1862ms
+2024-03-15T15:18:02Z 203.0.113.17 PUT /api/reports 403 995ms
+2024-03-15T15:18:06Z 10.0.0.7 GET /api/users 200 648ms
+2024-03-15T15:18:11Z 172.16.0.3 PUT /api/orders/abcdef1234567890ab 500 1598ms
+2024-03-15T15:18:12Z 172.16.0.3 PATCH /api/reports 301 765ms
+2024-03-15T15:18:12Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 1687ms
+2024-03-15T15:18:17Z 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 201 1321ms "curl/7.88.1"
+2024-03-15T15:18:18Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 401 1754ms
+2024-03-15T15:18:23Z 172.16.0.3 PATCH /api/login 403 683ms
+2024-03-15T15:18:24Z 192.168.1.42 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 1318ms
+15-Mar-2024 15:18:26 10.0.0.9 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 201 994ms
+2024-03-15T15:18:29Z 10.0.0.7 GET /api/reports 200 161ms
+2024-03-15T15:18:32Z 192.168.1.42 POST /api/login 404 408ms
+2024-03-15T15:18:37Z 172.16.0.3 GET /api/users - 415ms
+2024-03-15T15:18:39Z 172.16.0.3 POST /api/reports 500 513ms
+2024-03-15T15:18:41Z 10.0.0.7 PUT /api/users/12 200 1712ms
+2024-03-15T15:18:42Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 301 944ms
+2024-03-15T15:18:44Z 172.16.0.3 POST /api/orders/9971 502 1815ms
+2024-03-15T15:18:48Z 192.168.1.42 GET /api/users/34 200 1637ms "curl/7.88.1"
+2024-03-15T15:18:50Z 172.16.0.3 PUT /api/orders/abcdef1234567890ab 403 1312ms
+2024-03-15T15:18:52Z 203.0.113.17 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 500 0.612s
+2024-03-15T15:18:53Z 192.168.1.42 PUT /api/users/34 500 1993ms
+2024-03-15T15:18:58Z 10.0.0.7 GET /api/health 502 142ms "curl/7.88.1"
+2024-03-15T15:19:02Z 203.0.113.17 PUT /api/health 500 960ms
+2024-03-15T15:19:04Z 172.16.0.3 PATCH /api/health 404 980ms
+2024-03-15T15:19:06Z 203.0.113.17 get /api/users/550e8400-e29b-41d4-a716-446655440000 201 1842ms
+2024-03-15T15:19:08Z 10.0.0.7 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 301 880ms
+2024-03-15T15:19:11Z 172.16.0.3 put /api/orders/9971 200 285ms
+2024-03-15T15:19:12Z 203.0.113.17 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 502 94ms
+2024-03-15T15:19:16Z 172.16.0.3 DELETE /api/health 404 895ms
+2024-03-15T15:19:19Z 10.0.0.9 PUT /api/login 403 60ms
+2024-03-15T15:19:21Z 172.16.0.3 GET /api/reports 200 613ms
+2024-03-15T15:19:25Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 252ms
+2024-03-15T15:19:26Z 203.0.113.17 POST /api/reports 201 1392ms
+2024-03-15T15:19:28Z 172.16.0.3 POST /api/orders/abcdef1234567890ab 200 1761ms
+2024-03-15T15:19:33Z 192.168.1.42 PUT /api/login - 1613ms
+2024-03-15T15:19:36Z 203.0.113.17 GET /api/health 500 1568
+2024-03-15T15:19:38Z 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 404 488ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:19:42Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 403 1587ms
+2024-03-15T15:19:45Z 10.0.0.9 PATCH /api/users 401 294ms
+2024-03-15T15:19:50Z 172.16.0.3 GET /api/health 401 705ms "curl/7.88.1"
+2024-03-15T15:19:53Z 10.0.0.9 PATCH /api/login 401 1212ms
+2024-03-15T15:19:54Z 192.168.1.42 POST /api/users/34 401 1173ms
+2024-03-15T15:19:59Z 10.0.0.9 POST /api/export 200 1104ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:20:00Z 172.16.0.3 PATCH /api/health 301 200ms
+2024-03-15T15:20:02Z 203.0.113.17 POST /api/users 502 1010ms
+2024-03-15T15:20:02Z 192.168.1.42 DELETE /api/login 201 487ms
+2024/03/15 15:20:04 192.168.1.42 DELETE /api/users 401 1071ms
+2024-03-15T15:20:06Z 10.0.0.9 DELETE /api/users/34 200 274ms
+2024-03-15T15:20:10Z 192.168.1.42 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 1792ms
+2024-03-15T15:20:12Z 10.0.0.9 POST /api/orders/abcdef1234567890ab 502 1933ms
+2024-03-15T15:20:15Z 203.0.113.17 delete /api/login 201 25ms
+2024-03-15T15:20:16Z 10.0.0.9 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 500 683ms
+2024-03-15T15:20:21Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 200 1519ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:20:23Z 10.0.0.9 put /api/login 403 1265ms
+2024-03-15T15:20:25Z 10.0.0.7 PATCH /api/export 404 797ms
+2024/03/15 15:20:27 192.168.1.42 DELETE /api/users 201 1823ms
+2024-03-15T15:20:29Z 203.0.113.17 PUT /api/users/12 201 1871ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+fL9d#FQVlwq#5X39XMHPoO41wehFX!X8a)vUhYzkl2:cm
+2024-03-15T15:20:35Z 10.0.0.9 POST /api/users/12 200 1397ms
+2024-03-15T15:20:37Z 172.16.0.3 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 1838ms
+2024-03-15T15:20:42Z 192.168.1.42 PATCH /api/users/12 403 1423ms
+2024-03-15T15:20:44Z 203.0.113.17 GET /api/users 403 1581ms
+2024-03-15T15:20:46Z 172.16.0.3 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 0.042s
+2024-03-15T15:20:50Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 461ms
+{"timestamp": "2024-03-15T15:20:50Z", "ip": "10.0.0.7", "method": "POST", "path": "/api/users", "status": 403, "response_ms": 1059}
+{"timestamp": "2024-03-15T15:20:51Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 502, "response_ms": 434}
+2024-03-15T15:20:56Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 201 226ms
+2024-03-15T15:20:59Z 192.168.1.42 DELETE /api/reports 200 807ms
+2024-03-15T15:21:01Z 192.168.1.42 PUT /api/orders/abcdef1234567890ab 401 99ms
+2024-03-15T15:21:01Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 404 218ms "curl/7.88.1"
+
+=====398
+2024-03-15T15:21:08Z 172.16.0.3 DELETE /api/users/12 401 46ms
+2024-03-15T15:21:12Z 203.0.113.17 POST /api/orders/9971 502 1453ms
+2024-03-15T15:21:13Z 203.0.113.17 GET /api/login 201 1521ms
+1710516076 203.0.113.17 GET /api/users 200 777ms
+2024-03-15T15:21:20Z 10.0.0.7 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 497ms
+2024-03-15T15:21:25Z 10.0.0.9 PUT /api/users/34 301 660ms "broken user agent not closed
+2024-03-15T15:21:26Z 10.0.0.9 PUT /api/users 201 1744ms
+2024-03-15T15:21:29Z 10.0.0.7 PATCH /api/users 201 1651ms
+2024-03-15T15:21:31Z 10.0.0.9 patch /api/reports 200 915ms
+2024-03-15T15:21:31Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 1309ms
+2024-03-15T15:21:32Z 10.0.0.7 GET /api/users/34 502 1.134s
+2024-03-15T15:21:34Z 192.168.1.42 DELETE /api/health 301 346ms
+2024-03-15T15:21:36Z 10.0.0.7 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 301 594ms
+2024-03-15T15:21:40Z 10.0.0.7 PUT /api/health 200 1957ms
+2024-03-15T15:21:43Z 10.0.0.7 DELETE /api/health 403 1044ms
+1710516107 10.0.0.9 GET /api/export 403 1759ms
+1710516108 172.16.0.3 PATCH /api/orders/9971 200 1142ms
+2024-03-15T15:21:49Z 10.0.0.9 PUT /api/health 301 778ms
+2024-03-15T15:21:54Z 192.168.1.42 put /api/users/34 404 410ms
+2024-03-15T15:21:55Z 192.168.1.42 GET /api/orders/9971 - 1016ms
+2024-03-15T15:21:59Z 10.0.0.9 PUT /api/export 404 0.640s
+2024-03-15T15:22:04Z 192.168.1.42 GET /api/export 502 342ms
+1710516125 172.16.0.3 PUT /api/orders/9971 404 1310ms
+2024/03/15 15:22:09 10.0.0.9 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 201 988ms
+2024-03-15T15:22:12Z 192.168.1.42 post /api/login 502 942ms
+2024-03-15T15:22:13Z 203.0.113.17 PATCH /api/users/34 200 249ms
+2024-03-15T15:22:14Z 10.0.0.9 delete /api/orders/abcdef1234567890ab 200 1071ms
+2024-03-15T15:22:15Z 10.0.0.7 DELETE /api/login 301 1035ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:22:20Z 10.0.0.9 GET /api/users/12 502 1600ms
+{"timestamp": "2024-03-15T15:22:23Z", "ip": "172.16.0.3", "method": "POST", "path": "/api/export", "status": 301, "response_ms": 23}
+{"timestamp": "2024-03-15T15:22:25Z", "ip": "192.168.1.42", "method": "GET", "path": "/api/users/12", "status": 403, "response_ms": 1085}
+2024/03/15 15:22:28 10.0.0.9 POST /api/users/34 401 391ms
+2024-03-15T15:22:30Z 203.0.113.17 GET /api/health 502 1677ms
+2024-03-15T15:22:32Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 301 1857ms
+2024-03-15T15:22:35Z 203.0.113.17 GET /api/users/34 200 610ms
+2024-03-15T15:22:36Z 172.16.0.3 GET /api/reports 200 1209ms
+2024-03-15T15:22:38Z 192.168.1.42 GET /api/users 301 1549ms
+2024/03/15 15:22:38 192.168.1.42 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 1631ms
+2024-03-15T15:22:41Z 172.16.0.3 delete /api/health 401 1247ms
+2024-03-15T15:22:45Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 401 1372ms
+2024-03-15T15:22:48Z 192.168.1.42 PUT /api/reports 200 16ms
+2024-03-15T15:22:52Z 10.0.0.9 POST /api/users 502 261ms "python-requests/2.31.0"
+2024-03-15T15:22:54Z 203.0.113.17 DELETE /api/orders/9971 403 1362ms
+2024-03-15T15:22:56Z 172.16.0.3 GET /api/reports 200 1995ms
+2024/03/15 15:22:59 10.0.0.7 PATCH /api/health 403 1523ms
+2024-03-15T15:23:02Z 10.0.0.9 GET /api/export 301 1253ms
+15-Mar-2024 15:23:03 203.0.113.17 PATCH /api/orders/9971 200 271ms
+2024-03-15T15:23:04Z 203.0.113.17 DELETE /api/users/34 404 1965ms
+2024-03-15T15:23:05Z 203.0.113.17 POST /api/users/550e8400-e29b-41d4-a716-446655440000 201 359ms
+2024-03-15T15:23:06Z 192.168.1.42 POST /api/reports 403 1579ms
+2024-03-15T15:23:09Z 172.16.0.3 DELETE /api/users/12 200 1899ms
+2024-03-15T15:23:13Z 10.0.0.9 get /api/reports 201 1918ms
+1710516198 203.0.113.17 GET /api/reports 403 1874ms
+2024/03/15 15:23:21 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 201 540ms
+2024-03-15T15:23:24Z 192.168.1.42 PUT /api/orders/abcdef1234567890ab 201 1534ms
+2024-03-15T15:23:25Z 10.0.0.7 put /api/export 502 1519ms
+2024-03-15T15:23:25Z 203.0.113.17 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 403 877ms
+{"timestamp": "2024-03-15T15:23:27Z", "ip": "10.0.0.7", "method": "PATCH", "path": "/api/orders/abcdef1234567890ab", "status": 502, "response_ms": 464}
+2024-03-15T15:23:28Z 203.0.113.17 DELETE /api/reports 200 1681ms
+{"timestamp": "2024-03-15T15:23:31Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/users/34", "status": 502, "response_ms": 590}
+1710516212 192.168.1.42 PATCH /api/reports 301 1038ms
+2024-03-15T15:23:33Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 404 606ms
+2024-03-15T15:23:37Z 172.16.0.3 POST /api/users/550e8400-e29b-41d4-a716-446655440000 201 1444ms
+2024-03-15T15:23:37Z 10.0.0.7 DELETE /api/export 301 1.679s
+OHSYIOO9&AAo)OcgF-6CWk,hUZBiqrp1K,diMSl7cJYm6
+=====347
+2024-03-15T15:23:44Z 10.0.0.7 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 253ms
+2024-03-15T15:23:47Z 172.16.0.3 PATCH /api/users/34 403 1598ms
+{"timestamp": "2024-03-15T15:23:47Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/health", "status": 401, "response_ms": 33}
+2024-03-15T15:23:48Z 192.168.1.42 DELETE /api/orders/9971 201 57ms
+2024-03-15T15:23:53Z 203.0.113.17 delete /api/login 200 1636ms
+2024-03-15T15:23:58Z 10.0.0.9 DELETE /api/login 502 266ms
+2024-03-15T15:23:59Z 203.0.113.17 POST /api/export 200 816ms
+{"timestamp": "2024-03-15T15:24:04Z", "ip": "203.0.113.17", "method": "DELETE", "path": "/api/users/12", "status": 500, "response_ms": 1724}
+2024-03-15T15:24:09Z 192.168.1.42 POST /api/users/12 200 1775ms
+2024-03-15T15:24:10Z 10.0.0.9 PUT /api/users/12 200 273ms
+2024-03-15T15:24:15Z 10.0.0.7 GET /api/orders/9971 301 1753ms
+2024-03-15T15:24:16Z 192.168.1.42 PATCH /api/login 401 1988ms
+2024-03-15T15:24:20Z 192.168.1.42 POST /api/login 200 1947ms
+2024-03-15T15:24:24Z 172.16.0.3 PATCH /api/health - 1191ms
+2024/03/15 15:24:29 203.0.113.17 PUT /api/orders/abcdef1234567890ab 500 1055ms
+15-Mar-2024 15:24:30 192.168.1.42 POST /api/users 201 300ms
+
+2024-03-15T15:24:36Z 172.16.0.3 PUT /api/users/34 502 874ms
+2024-03-15T15:24:37Z 172.16.0.3 DELETE /api/users/34 403 944ms
+2024-03-15T15:24:37Z 10.0.0.9 POST /api/orders/9971 201 154
+{"timestamp": "2024-03-15T15:24:
+{"timestamp": "2024-03-15T15:24:43Z", "ip": "172.16.0.3", "method": "DELETE", "path": "/api/export", "status": 200, "response_ms": 1984}
+2024-03-15T15:24:45Z 192.168.1.42 PATCH /api/users/12 500 843ms
+2024-03-15T15:24:46Z 192.168.1.42 PUT /api/reports 301 309ms
+2024-03-15T15:24:48Z 192.168.1.42 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 403 1959ms
+{"timestamp": "2024-03-15T15:24:49Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/orders/9971", "status": 301, "response_ms": 1215}
+2024-03-15T15:24:53Z 172.16.0.3 PATCH /api/login 500 565ms
+2024-03-15T15:24:54Z 10.0.0.7 PUT /api/export 200 716ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:24:58Z 172.16.0.3 get /api/orders/9971 200 1356ms
+2024-03-15T15:24:59Z 203.0.113.17 PUT /api/users 401 1458ms
+15-Mar-2024 15:25:01 10.0.0.9 DELETE /api/users/34 404 734ms
+2024-03-15T15:25:06Z 10.0.0.9 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 301 1311ms
+2024-03-15T15:25:06Z 10.0.0.9 PUT /api/users/12 200 167
+2024-03-15T15:25:08Z 10.0.0.7 PATCH /api/users 200 1532
+2024-03-15T15:25:11Z 10.0.0.9 GET /api/export 500 1919ms
+2024-03-15T15:25:12Z 203.0.113.17 PATCH /api/users/12 403 38ms
+2024-03-15T15:25:14Z 192.168.1.42 DELETE /api/orders/9971 - 510ms
+2024/03/15 15:25:18 192.168.1.42 PATCH /api/health 200 1391ms
+2024-03-15T15:25:20Z 10.0.0.7 PATCH /api/reports 200 875ms
+2024-03-15T15:25:24Z 172.16.0.3 GET /api/reports 201 1713ms
+2024-03-15T15:25:28Z 192.168.1.42 PUT /api/login 404 611ms "python-requests/2.31.0"
+2024-03-15T15:25:30Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 301 1912ms
+{"timestamp": "2024-03-15T15:25:35Z", "ip": "192.168.1.42", "method": "DELETE", "path": "/api/orders/abcdef1234567890ab", "status": 404, "response_ms": 127}
+2024-03-15T15:25:38Z 10.0.0.9 PUT /api/login 401 229ms
+2024-03-15T15:25:38Z 10.0.0.7 DELETE /api/reports 200 217ms
+2024-03-15T15:25:41Z 192.168.1.42 PATCH /api/orders/9971 200 851ms
+2024-03-15T15:25:42Z 192.168.1.42 POST /api/login - 973ms
+2024-03-15T15:25:46Z 172.16.0.3 DELETE /api/users/34 500 1672ms
+2024-03-15T15:25:48Z 10.0.0.9 DELETE /api/users/34 200 734ms
+2024-03-15T15:25:52Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 301 92ms
+2024-03-15T15:25:53Z 172.16.0.3 GET /api/users/34 201 1952ms
+
+2024-03-15T15:25:59Z 10.0.0.9 PATCH /api/health 200 675ms
+2024-03-15T15:26:03Z 10.0.0.9 POST /api/users/12 200 1633ms
+2024-03-15T15:26:03Z 172.16.0.3 PATCH /api/users 201 116ms
+2024-03-15T15:26:06Z 203.0.113.17 GET /api/export 404 602ms
+2024-03-15T15:26:08Z 10.0.0.9 POST /api/orders/abcdef1234567890ab 200 1503ms
+2024-03-15T15:26:12Z 172.16.0.3 GET /api/login 201 1374ms
+2024-03-15T15:26:16Z 192.168.1.42 PATCH /api/orders/abcdef1234567890ab 200 396ms
+2024-03-15T15:26:21Z 10.0.0.7 post /api/users/12 200 831ms
+2024-03-15T15:26:21Z 10.0.0.7 POST /api/export 200 1272ms
+2024-03-15T15:26:23Z 192.168.1.42 DELETE /api/export 500 637ms
+2024-03-15T15:26:25Z 10.0.0.9 DELETE /api/users 500 884ms
+2024-03-15T15:26:26Z 172.16.0.3 PUT /api/login 401 1467ms
+2024-03-15T15:26:29Z 192.168.1.42 POST /api/users 200 116ms
+2024-03-15T15:26:32Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 200 892ms
+2024-03-15T15:26:34Z 10.0.0.9 PUT /api/reports 301 238ms
+15-Mar-2024 15:26:34 203.0.113.17 POST /api/reports 401 1528ms
+2024-03-15T15:26:39Z 172.16.0.3 POST /api/login 201 1206ms
+2024-03-15T15:26:43Z 192.168.1.42 POST /api/orders/abcdef1234567890ab 200 94ms
+  File "app.py", line 42, in handle_request
+15-Mar-2024 15:26:49 192.168.1.42 GET /api/orders/9971 502 712ms
+2024-03-15T15:26:53Z 10.0.0.7 PATCH /api/users/34 200 271ms "broken user agent not closed
+2024-03-15T15:26:55Z 172.16.0.3 PATCH /api/reports 401 928ms
+2024-03-15T15:26:56Z 192.168.1.42 DELETE /api/export - 1917ms
+{"timestamp": "2024-03-15T15:27:00Z", "ip": "10.0.0.7", "method": "PATCH", "path": "/api/login", "status": 200, "response_ms": 603}
+
+{"timestamp": "2024-03-15T15:27:01Z", "ip": "10.0.0.7", "method": "DELETE", "path": "/api/health", "status": 500, "response_ms": 1792}
+  File "app.py", line 42, in handle_request
+1710516429 10.0.0.9 PATCH /api/export 403 1253ms
+2024-03-15T15:27:12Z 192.168.1.42 POST /api/orders/abcdef1234567890ab 201 1222ms
+2024-03-15T15:27:12Z 203.0.113.17 DELETE /api/orders/9971 500 540ms "python-requests/2.31.0"
+2024-03-15T15:27:14Z 172.16.0.3 PATCH /api/users/12 200 468ms
+2024-03-15T15:27:14Z 172.16.0.3 GET /api/users/34 301 1909ms
+2024-03-15T15:27:15Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 500 247ms
+2024-03-15T15:27:15Z 203.0.113.17 put /api/reports 200 1948ms
+2024-03-15T15:27:20Z 10.0.0.7 DELETE /api/orders/abcdef1234567890ab 301 674ms
+2024-03-15T15:27:21Z 192.168.1.42 put /api/users/550e8400-e29b-41d4-a716-446655440000 301 371ms
+  at com.example.Service.process(Service.java:101)
+2024-03-15T15:27:28Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 500 432ms
+2024-03-15T15:27:31Z 172.16.0.3 POST /api/orders/abcdef1234567890ab 403 328ms
+2024-03-15T15:27:35Z 10.0.0.9 PUT /api/users/34 404 201ms
+2024-03-15T15:27:39Z 10.0.0.7 POST /api/users/550e8400-e29b-41d4-a716-446655440000 502 1014ms
+2024-03-15T15:27:41Z 192.168.1.42 put /api/users/34 200 1684ms
+2024/03/15 15:27:44 10.0.0.7 GET /api/users/34 200 883ms
+2024-03-15T15:27:48Z 10.0.0.9 GET /api/orders/9971 - 1498ms
+2024-03-15T15:27:48Z 10.0.0.9 delete /api/users 200 1702ms
+1710516468 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 558ms
+2024-03-15T15:27:50Z 203.0.113.17 GET /api/users 200 1.120s
+2024-03-15T15:27:53Z 192.168.1.42 POST /api/users/34 404 1565ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:27:54Z 10.0.0.9 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 1123ms
+2024-03-15T15:27:56Z 192.168.1.42 get /api/users 200 1125ms
+2024-03-15T15:27:59Z 10.0.0.9 POST /api/users 201 59ms
+2024-03-15T15:28:01Z 10.0.0.7 PUT /api/login 201 1897ms
+2024/03/15 15:28:04 192.168.1.42 DELETE /api/users/34 200 469ms
+2024-03-15T15:28:06Z 203.0.113.17 PUT /api/users/12 401 1900ms
+2024-03-15T15:28:07Z 203.0.113.17 POST /api/users/34 403 1096ms "python-requests/2.31.0"
+2024/03/15 15:28:09 10.0.0.7 PUT /api/orders/abcdef1234567890ab 301 723ms
+2024-03-15T15:28:11Z 172.16.0.3 PUT /api/users/12 - 1774ms
+{"timestamp": "2024-03-15T15:28:12Z", "ip": "10.0.0.7", "method": "PUT", "path": "/api/users/34", "status": 403, "response_ms": 924}
+{"timestamp": "2024-03-15T15:28:16Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/export", "status": 301, "response_ms": 306}
+2024-03-15T15:28:17Z 10.0.0.7 POST /api/export 401 663ms
+2024-03-15T15:28:21Z 10.0.0.9 PATCH /api/reports 200 1652ms
+2024-03-15T15:28:24Z 203.0.113.17 DELETE /api/orders/9971 500 1018ms
+2024-03-15T15:28:28Z 10.0.0.7 DELETE /api/users/12 502 1474ms
+2024-03-15T15:28:32Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 401 15ms
+K*Yhe7IKhBW
+{"timestamp": "2024-03-15T15:28:35Z", "ip": "203.0.113.17", "method": "DELETE", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 201, "response_ms": 1705}
+2024-03-15T15:28:37Z 10.0.0.7 GET /api/users/34 403 1511ms
+2024/03/15 15:28:37 10.0.0.9 PUT /api/users 200 1367ms
+{"timestamp": "2024-03-15T15:28:41Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/users/34", "status": 401, "response_ms": 299}
+2024-03-15T15:28:42Z 192.168.1.42 PATCH /api/export 200 1577ms
+2024-03-15T15:28:43Z 10.0.0.7 PATCH /api/login 404 852ms
+2024-03-15T15:28:46Z 192.168.1.42 PUT /api/users/12 200 132ms
+2024-03-15T15:28:46Z 10.0.0.7 patch /api/users/34 200 821ms
+15-Mar-2024 15:28:50 10.0.0.9 PATCH /api/login 502 1037ms
+2024-03-15T15:28:52Z 10.0.0.7 PUT /api/users/12 500 783ms
+1710516533 10.0.0.9 PATCH /api/users 201 813ms
+{"timestamp": "2024-03-15T15:28:55Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/users/12", "status": 404, "response_ms": 987}
+15-Mar-2024 15:28:57 10.0.0.9 DELETE /api/users/34 200 1655ms
+2024-03-15T15:29:01Z 192.168.1.42 GET /api/users/12 401 1245ms
+2024-03-15T15:29:04Z 172.16.0.3 POST /api/orders/9971 200 143ms
+2024-03-15T15:29:06Z 172.16.0.3 post /api/orders/9971 201 1317ms
+2024-03-15T15:29:06Z 192.168.1.42 PATCH /api/orders/abcdef1234567890ab 200 1164ms
+2024-03-15T15:29:10Z 172.16.0.3 GET /api/login 200 740ms
+
+2024-03-15T15:29:17Z 10.0.0.9 PUT /api/users/34 200 688ms
+2024-03-15T15:29:20Z 203.0.113.17 GET /api/orders/9971 200 58ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:29:24Z 192.168.1.42 put /api/users/34 200 1407ms
+2024-03-15T15:29:28Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 1584ms
+%:%HVgHBK<T5Nuq;:9j+"c1iD)b"cWElBk8z,KJb9m
+2024-03-15T15:29:33Z 10.0.0.9 PUT /api/health 200 1934ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T15:29:35Z 172.16.0.3 DELETE /api/export 502 1888ms
+2024-03-15T15:29:36Z 203.0.113.17 PATCH /api/reports 401 180ms
+2024-03-15T15:29:39Z 172.16.0.3 GET /api/orders/abcdef1234567890ab 200 1527ms
+15-Mar-2024 15:29:42 203.0.113.17 GET /api/users/34 200 605ms
+2024-03-15T15:29:43Z 192.168.1.42 post /api/export 404 1380ms
+2024-03-15T15:29:44Z 10.0.0.9 PATCH /api/health 200 185ms
+1710516585 10.0.0.9 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 403 683ms
+2024-03-15T15:29:46Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 404 244ms
+2024-03-15T15:29:48Z 203.0.113.17 POST /api/health 200 1321ms
+2024-03-15T15:29:50Z 192.168.1.42 PATCH /api/export 200 1927ms
+{"timestamp": "2024-03-15T15:29:53Z", "ip": "10.0.0.9", "method": "POST", "path": "/api/users", "status": 201, "response_ms": 1787}
+
+2024-03-15T15:29:57Z 10.0.0.7 GET /api/users/34 200 570ms
+2024-03-15T15:30:01Z 10.0.0.9 DELETE /api/orders/9971 201 1381ms
+2024-03-15T15:30:03Z 192.168.1.42 GET /api/export 401 1982ms
+2024-03-15T15:30:05Z 172.16.0.3 DELETE /api/health 404 1106ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T15:30:10Z 203.0.113.17 DELETE /api/users - 1613ms
+2024-03-15T15:30:15Z 203.0.113.17 PATCH /api/users/34 401 1370ms
+2024-03-15T15:30:17Z 10.0.0.9 POST /api/health 401 242ms
+2024-03-15T15:30:21Z 192.168.1.42 DELETE /api/users/34 404 1318ms
+2024-03-15T15:30:26Z 10.0.0.7 POST /api/export 500 1595ms
+2024-03-15T15:30:27Z 10.0.0.7 put /api/users/550e8400-e29b-41d4-a716-446655440000 201 2000ms
+
+{"timestamp": "2024-03-15T15:30:35Z", "ip": "192.168.1.42", "method": "PUT", "path": "/api/login", "status": 500, "response_ms": 1687}
+15-Mar-2024 15:30:36 10.0.0.9 DELETE /api/export 401 731ms
+  File "db.py", line 17, in query
+2024-03-15T15:30:42Z 10.0.0.9 DELETE /api/reports 200 1.142s
+2024-03-15T15:30:47Z 10.0.0.9 DELETE /api/login 403 1308ms
+2024/03/15 15:30:49 192.168.1.42 GET /api/users/12 200 1340ms
+2024-03-15T15:30:53Z 203.0.113.17 PATCH /api/users/12 404 1040ms
+{"timestamp": "2024-03-15T15:30:57Z", "ip": "172.16.0.3", "method": "DELETE", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 201, "response_ms": 1601}
+2024-03-15T15:31:01Z 192.168.1.42 POST /api/health 200 728ms
+2024-03-15T15:31:05Z 10.0.0.9 GET /api/reports 201 1049ms
+2024-03-15T15:31:08Z 172.16.0.3 PUT /api/export 201 18ms
+2024-03-15T15:31:11Z 192.168.1.42 POST /api/reports 500 1689ms
+2024-03-15T15:31:14Z 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 500 811ms
+2024-03-15T15:31:15Z 10.0.0.9 get /api/orders/abcdef1234567890ab 403 273ms
+2024-03-413
+2024-03-15T15:31:21Z 10.0.0.9 POST /api/users/12 200 1042ms
+2024-03-15T15:31:23Z 10.0.0.9 put /api/orders/9971 200 1952ms
+2024-03-15T15:31:25Z 192.168.1.42 GET /api/export 200 1297ms
+2024-03-15T15:31:30Z 203.0.113.17 PATCH /api/users/12 502 793ms
+1710516691 10.0.0.7 DELETE /api/reports 200 500ms
+2024-03-15T15:31:32Z 203.0.113.17 POST /api/export 301 1360ms
+2024-03-15T15:31:33Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 200 237ms
+2024-03-15T15:31:37Z 192.168.1.42 GET /api/users/34 301 0.546s
+2024-03-15T15:31:38Z 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 403 216ms
+{"timestamp": "2024-03-15T15:31:43Z", "ip": "10.0.0.9", "method": "GET", "path": "/api/health", "status": 200, "response_ms": 440}
+2024-03-15T15:31:46Z 172.16.0.3 DELETE /api/users/34 200 621ms
+2024-03-15T15:31:46Z 203.0.113.17 PATCH /api/users - 712ms
+2024-03-15T15:31:49Z 203.0.113.17 PATCH /api/orders/9971 200 334ms
+1710516714 192.168.1.42 POST /api/orders/abcdef1234567890ab 200 1107ms
+2024-03-15T15:31:54Z 10.0.0.7 POST /api/reports 200 1850ms
+2024-03-15T15:31:56Z 10.0.0.7 POST /api/users/12 200 558ms
+2024-03-15T15:31:58Z 192.168.1.42 PUT /api/orders/9971 301 966ms
+2024-03-15T15:32:02Z 10.0.0.9 POST /api/login 200 415ms
+Traceback (most recent call last):
+{"timestamp": "2024-03-15T15:32:09Z", "ip": "203.0.113.17", "method": "PUT", "path": "/api/users/34", "status": 201, "response_ms": 1963}
+2024-03-15T15:32:14Z 10.0.0.9 DELETE /api/orders/abcdef1234567890ab 301 1680ms
+2024-03-15T15:32:16Z 203.0.113.17 delete /api/export 201 1171ms
+2024-03-15T15:32:19Z 192.168.1.42 DELETE /api/users/34 200 1972ms
+2024-03-15T15:32:24Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 500 731ms
+2024-03-15T15:32:27Z 10.0.0.7 PUT /api/export 200 742ms
+2024-03-15T15:32:29Z 172.16.0.3 PUT /api/users/34 401 260ms
+2024-03-15T15:32:29Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 404 1172ms
+2024-03-15T15:32:32Z 203.0.113.17 GET /api/export 301 1242ms "curl/7.88.1"
+2024-03-15T15:32:36Z 203.0.113.17 PUT /api/orders/abcdef1234567890ab 200 1185ms
+2024/03/15 15:32:40 10.0.0.9 PUT /api/reports 201 413ms
+2024-03-15T15:32:44Z 172.16.0.3 DELETE /api/users/12 200 937ms
+2024-03-15T15:32:46Z 203.0.113.17 delete /api/users/550e8400-e29b-41d4-a716-446655440000 502 53ms
+2024-03-15T15:32:48Z 203.0.113.17 GET /api/health 301 278ms
+2024-03-15T15:32:51Z 203.0.113.17 PATCH /api/users 401 1330ms
+2024-03-15T15:32:52Z 192.168.1.42 DELETE /api/login 301 659ms
+2024-03-15T15:32:55Z 203.0.113.17 PUT /api/health 502 106ms
+2024-03-15T15:32:58Z 10.0.0.9 DELETE /api/users/12 401 1930ms
+2024-03-15T15:32:59Z 192.168.1.42 GET /api/users/34 200 671ms
+2024-03-15T15:33:03Z 192.168.1.42 POST /api/reports 500 20ms
+2024-03-15T15:33:03Z 192.168.1.42 GET /api/users 301 163ms
+2024-03-15T15:33:05Z 203.0.113.17 DELETE /api/login 200 1904ms
+2024-03-15T15:33:07Z 192.168.1.42 post /api/reports 200 1552ms
+2024-03-15T15:33:11Z 10.0.0.9 DELETE /api/users/12 500 1090ms "curl/7.88.1"
+2024-03-15T15:33:16Z 10.0.0.9 PUT /api/reports 404 472ms
+2024-03-15T15:33:17Z 172.16.0.3 GET /api/reports 500 1721ms
+2024/03/15 15:33:19 10.0.0.7 GET /api/users/12 404 133ms
+15-Mar-2024 15:33:19 10.0.0.9 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 404 224ms
+{"timestamp": "2024-03-15T15:33:21Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/reports", "status": 301, "response_ms": 1461}
+15-Mar-2024 15:33:25 203.0.113.17 GET /api/users/34 201 1887ms
+---526
+{"timestamp": "2024-03-15T15:33:30Z", "ip": "10.0.0.7", "method": "GET", "path": "/api/login", "status": 403, "response_ms": 346}
+
+2024-03-15T15:33:37Z 10.0.0.7 delete /api/users/12 200 502ms
+2024-03-15T15:33:38Z 10.0.0.7 PUT /api/users 404 1365ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:33:41Z 203.0.113.17 GET /api/reports 403 444ms
+2024-03-15T15:33:42Z 10.0.0.9 PATCH /api/reports 200 913ms
+2024-03-15T15:33:44Z 192.168.1.42 DELETE /api/export 201 612ms
+2024-03-15T15:33:46Z 203.0.113.17 PUT /api/orders/9971 502 1020ms
+2024-03-15T15:33:50Z 192.168.1.42 POST /api/users/12 201 245ms
+2024-03-15T15:33:51Z 203.0.113.17 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 200 1099ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:33:53Z 203.0.113.17 DELETE /api/export 403 217ms
+1710516835 172.16.0.3 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 1619ms
+2024-03-15T15:33:57Z 172.16.0.3 PATCH /api/login 200 203ms
+2024-03-15T15:33:59Z 203.0.113.17 DELETE /api/login 201 358ms
+2024/03/15 15:34:01 10.0.0.7 POST /api/reports 404 300ms
+2024-03-15T15:34:05Z 192.168.1.42 POST /api/login 200 359ms
+2024-03-15T15:34:05Z 10.0.0.9 patch /api/users 404 1798ms
+2024-03-15T15:34:08Z 192.168.1.42 GET /api/orders/abcdef1234567890ab 301 1720ms
+2024-03-15T15:34:09Z 10.0.0.7 POST /api/users/12 200 633ms
+2024-03-15T15:34:12Z 172.16.0.3 PATCH /api/login 404 529ms
+2024-03-15T15:34:15Z 172.16.0.3 PUT /api/reports 500 1596ms
+2024-03-15T15:34:20Z 172.16.0.3 PATCH /api/users 200 850ms
+15-Mar-2024 15:34:22 10.0.0.7 PUT /api/health 200 510ms
+2024-03-15T15:34:25Z 192.168.1.42 POST /api/export 200 1987ms
+2024-03-15T15:34:28Z 203.0.113.17 DELETE /api/orders/9971 200 553ms "python-requests/2.31.0"
+2024-03-15T15:34:31Z 10.0.0.9 PUT /api/login 201 94ms
+2024-03-15T15:34:35Z 172.16.0.3 PATCH /api/users/12 403 1638ms
+2024-03-15T15:34:39Z 172.16.0.3 PUT /api/users/12 200 1031ms
+2024-03-15T15:34:40Z 10.0.0.7 PATCH /api/login 502 1153ms
+2024-03-15T15:34:42Z 172.16.0.3 GET /api/login 200 939ms
+2024-03-15T15:34:42Z 203.0.113.17 GET /api/users 404 636ms
+2024-03-15T15:34:42Z 192.168.1.42 GET /api/login 200 727ms
+{"timestamp": "2024-03-15T15:34:45Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/users/34", "status": 200, "response_ms": 1470}
+2024-03-15T15:34:47Z 10.0.0.7 DELETE /api/orders/abcdef1234567890ab 200 605ms
+2024-03-15T15:34:49Z 172.16.0.3 POST /api/export 403 827ms
+2024-03-15T15:34:50Z 172.16.0.3 PATCH /api/login 200 1164ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+{"timestamp": "2024-03-15T15:34:53Z", "ip": "10.0.0.7", "method": "POST", "path": "/api/login", "status": 200, "response_ms": 862}
+2024-03-15T15:34:57Z 172.16.0.3 GET /api/login 502 1908ms
+2024-03-15T15:35:01Z 10.0.0.9 DELETE /api/users/12 200 1088ms
+15-Mar-2024 15:35:05 203.0.113.17 PUT /api/health 401 885ms
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T15:35:09Z 192.168.1.42 DELETE /api/users/12 - 1269ms
+{"timestamp": "2024-03-15T15:35:11Z", "ip": "203.0.113.17", "method": "PATCH", "path": "/api/reports", "status": 200, "response_ms": 1281}
+2024-03-15T15:35:16Z 172.16.0.3 GET /api/export 200 835ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+{"timestamp": "2024-03-15T15:35:20Z", "ip": "203.0.113.17", "method": "DELETE", "path": "/api/users", "status": 200, "response_ms": 122}
+{"timestamp": "2024-03-15T15:35:22Z", "ip": "192.168.1.42", "method": "PUT", "path": "/api/orders/abcdef1234567890ab", "status": 200, "response_ms": 1693}
+2024-03-15T15:35:25Z 172.16.0.3 GET /api/users/12 502 1391ms
+1710516929 192.168.1.42 POST /api/orders/9971 200 1161ms
+2024-03-15T15:35:33Z 10.0.0.7 PUT /api/login 200 1659ms
+2024-03-15T15:35:37Z 10.0.0.7 get /api/users/12 200 323ms
+2024-03-15T15:35:38Z 10.0.0.7 POST /api/users/12 404 60ms
+2024-03-15T15:35:43Z 192.168.1.42 GET /api/login 403 1000ms
+{"timestamp": "2024-03-15T15:35:44Z", "ip": "203.0.113.17", "method": "PUT", "path": "/api/orders/abcdef1234567890ab", "status": 404, "response_ms": 1769}
+2024-03-15T15:35:45Z 192.168.1.42 POST /api/users/34 201 359ms
+1710516950 203.0.113.17 POST /api/health 404 603ms
+15-Mar-2024 15:35:52 203.0.113.17 DELETE /api/reports 301 811ms
+2024-03-15T15:35:53Z 10.0.0.9 POST /api/users 301 946ms
+2024-03-15T15:35:54Z 192.168.1.42 PATCH /api/login 200 1331ms
+2024-03-15T15:35:58Z 172.16.0.3 POST /api/health 404 577ms
+10.0.513
+2024-03-15T15:36:02Z 203.0.113.17 DELETE /api/orders/9971 200 367ms
+2024-03-15T15:36:04Z 203.0.113.17 PUT /api/health 200 580ms
+2024-03-15T15:36:06Z 192.168.1.42 DELETE /api/export 404 1.250s
+2024-03-15T15:36:08Z 203.0.113.17 patch /api/login 200 1439ms
+2024-03-15T15:36:10Z 203.0.113.17 put /api/orders/abcdef1234567890ab 502 1709ms
+2024-03-15T15:36:14Z 192.168.1.42 POST /api/users/550e8400-e29b-41d4-a716-446655440000 200 1372ms
+2024-03-15T15:36:15Z 10.0.0.9 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 201 225ms
+15-Mar-2024 15:36:16 10.0.0.9 DELETE /api/users/12 200 1263ms
+2024-03-15T15:36:17Z 192.168.1.42 DELETE /api/reports 502 1302ms
+2024-03-15T15:36:18Z 172.16.0.3 GET /api/health 403 0.282s
+2024-03-15T15:36:23Z 10.0.0.7 PUT /api/health 404 1400ms
+2024-03-15T15:36:25Z 10.0.0.7 DELETE /api/orders/9971 201 186ms
+2024-03-15T15:36:30Z 192.168.1.42 POST /api/users 200 1839ms
+2024-03-15T15:36:30Z 10.0.0.9 PATCH /api/orders/9971 200 707ms
+15-Mar-2024 15:36:32 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 201 1178ms
+2024-03-15T15:36:36Z 203.0.113.17 PATCH /api/users/34 200 908ms
+2024-03-15T15:36:39Z 192.168.1.42 patch /api/users/12 200 1612ms
+2024-03-15T15:36:44Z 192.168.1.42 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 1241ms
+2024-03-15T15:36:48Z 10.0.0.7 PUT /api/login 403 1450ms
+2024-03-15T15:36:51Z 10.0.0.7 PUT /api/users/12 500 1188ms
+2024-03-15T15:36:53Z 203.0.113.17 PATCH /api/login 403 1276ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024/03/15 15:36:58 192.168.1.42 PATCH /api/health 301 1347ms
+2024-03-15T15:36:58Z 172.16.0.3 POST /api/reports 200 295ms
+2024-03-15T15:37:00Z 172.16.0.3 GET /api/users/550e8400-e29b-41d4-a716-446655440000 404 159ms
+2024-03-15T15:37:05Z 192.168.1.42 PUT /api/users/12 - 1235ms
+2024-03-15T15:37:06Z 10.0.0.9 POST /api/login 200 223ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:37:10Z 172.16.0.3 DELETE /api/health 301 1610ms
+2024-03-15T15:37:12Z 192.168.1.42 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 1255ms
+15-Mar-2024 15:37:15 192.168.1.42 PATCH /api/health 200 802ms
+2024-03-15T15:37:16Z 10.0.0.9 PATCH /api/users/34 200 906ms
+2024-03-15T15:37:17Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 401 904ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:37:19Z 203.0.113.17 GET /api/users/550e8400-e29b-41d4-a716-446655440000 403 1540ms
+2024-03-15T15:37:24Z 192.168.1.42 POST /api/users 200 126ms
+2024-03-15T15:37:25Z 172.16.0.3 GET /api/reports 401 1243ms
+{"timestamp": "2024-03-15T1
+2024-03-15T15:37:28Z 203.0.113.17 POST /api/health 401 1848ms
+2024-03-15T15:37:30Z 172.16.0.3 PUT /api/orders/9971 301 1789ms
+2024-03-15T15:37:32Z 172.16.0.3 PUT /api/orders/9971 500 223ms
+2024-03-15T15:37:32Z 10.0.0.9 PATCH /api/health 301 170ms
+2024-03-15T15:37:34Z 203.0.113.17 POST /api/login - 441ms
+2024-03-15T15:37:35Z 10.0.0.7 GET /api/users/550e8400-e29b-41d4-a716-446655440000 404 1341ms
+
+2024-03-15T15:37:39Z 192.168.1.42 PUT /api/login 502 796ms
+{"timestamp": "2024-03-15T15:37:42Z", "ip": "192.168.1.42", "method": "GET", "path": "/api/login", "status": 502, "response_ms": 796}
+2024-03-15T15:37:46Z 10.0.0.9 DELETE /api/health 200 469ms
+2024-03-15T15:37:48Z 10.0.0.9 PATCH /api/users 301 74ms
+1710517072 192.168.1.42 PATCH /api/reports 301 1669ms
+2024-03-15T15:37:57Z 192.168.1.42 PUT /api/orders/abcdef1234567890ab 403 1783ms
+{"timestamp": "2024-03-15T15:38:01Z", "ip": "192.168.1.42", "method": "GET", "path": "/api/orders/9971", "status": 403, "response_ms": 1960}
+2024-03-15T15:38:03Z 203.0.113.17 DELETE /api/export 502 1482ms "python-requests/2.31.0"
+Caused by: ConnectionRefusedError: [Errno 111] Connection refused
+2024-03-15T15:38:07Z 192.168.1.42 PUT /api/login 200 521ms
+2024-03-15T15:38:11Z 203.0.113.17 DELETE /api/users 502 571ms
+2024-03-15T15:38:14Z 172.16.0.3 PATCH /api/users 200 638ms
+15-Mar-2024 15:38:19 172.16.0.3 POST /api/health 404 45ms
+2024-03-15T15:38:19Z 172.16.0.3 DELETE /api/orders/9971 201 846ms
+2024-03-15T15:38:20Z 192.168.1.42 put /api/orders/abcdef1234567890ab 500 653ms
+2024-03-15T15:38:20Z 172.16.0.3 PUT /api/login 404 270ms
+2024-03-15T15:38:22Z 10.0.0.7 patch /api/users 201 244ms
+2024-03-15T15:38:23Z 203.0.113.17 DELETE /api/orders/abcdef1234567890ab 401 95ms
+15-Mar-2024 15:38:27 192.168.1.42 PUT /api/login 200 1399ms
+15-Mar-2024 15:38:32 203.0.113.17 POST /api/reports 200 168ms
+2024-03-15T15:38:33Z 10.0.0.7 POST /api/reports 502 770ms
+2024-03-15T15:38:36Z 10.0.0.9 PUT /api/users/34 200 678ms
+2024-03-15T15:38:40Z 10.0.0.9 PUT /api/health 301 1283ms
+2024-03-15T15:38:40Z 192.168.1.42 PUT /api/users/34 502 62ms
+2024-03-15T15:38:41Z 172.16.0.3 patch /api/orders/9971 502 1469ms
+2024-03-15T15:38:44Z 10.0.0.9 PATCH /api/users 200 0.790s
+
+2024-03-15T15:38:46Z 203.0.113.17 PATCH /api/export 500 1511ms
+{"timestamp": "2024-03-15T15:38:48Z", "ip": "203.0.113.17", "method": "GET", "path": "/api/orders/abcdef1234567890ab", "status": 404, "response_ms": 1360}
+2024-03-15T15:38:52Z 172.16.0.3 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 502 610ms
+2024-03-15T15:38:54Z 172.16.0.3 POST /api/health 401 1542ms
+2024/03/15 15:38:55 10.0.0.9 DELETE /api/reports 200 730ms
+2024/03/15 15:38:58 203.0.113.17 POST /api/health 403 480ms
+2024-03-15T15:39:03Z 10.0.0.9 PATCH /api/users/34 502 543ms
+2024-03-15T15:39:05Z 192.168.1.42 GET /api/export 403 1044ms
+2024-03-15T15:39:06Z 10.0.0.7 post /api/health 200 351ms
+2024-03-15T15:39:07Z 203.0.113.17 DELETE /api/users/12 200 1790ms
+{"timestamp": "2024-03-15T15:39:08Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/users/12", "status": 200, "response_ms": 1064}
+2024-03-15T15:39:12Z 10.0.0.9 PUT /api/users/34 - 1437ms
+2024-03-15T15:39:17Z 172.16.0.3 GET /api/reports 401 1221ms
+9JVQVTBZhn.$
+2024-03-15T15:39:19Z 192.168.1.42 PATCH /api/orders/abcdef1234567890ab 401 1390ms
+2024-03-15T15:39:23Z 10.0.0.9 POST /api/orders/9971 502 582ms
+2024-03-15T15:39:23Z 10.0.0.9 PUT /api/users 502 1070ms
+2024-03-15T15:39:28Z 10.0.0.9 put /api/reports 403 662ms
+
+{"timestamp": "2024-03-15T15:39:30Z", "ip": "10.0.0.7", "method": "DELETE", "path": "/api/orders/9971", "status": 301, "response_ms": 1187}
+2024-03-15T15:39:33Z 172.16.0.3 POST /api/users/12 301 570ms
+2024-03-15T15:39:37Z 10.0.0.7 PUT /api/login 502 1553ms
+2024-03-15T15:39:38Z 172.16.0.3 POST /api/users/12 201 1.140s
+1710517182 192.168.1.42 PATCH /api/users 500 1111ms
+2024-03-15T15:39:44Z 192.168.1.42 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 301 1938ms
+2024-03-15T15:39:48Z 10.0.0.9 PATCH /api/users/34 404 614ms
+2024/03/15 15:39:49 192.168.1.42 DELETE /api/export 404 548ms
+eJas9Fk#GzW$9E4Tc%Eo*41vh.MspxYj!n"Agpb%r0T8!*;qm4Rx;M-u
+2024-03-15T15:39:53Z 10.0.0.7 PUT /api/users/550e8400-e29b-41d4-a716-446655440000 301 1378ms
+2024-03-15T15:39:58Z 10.0.0.9 PATCH /api/reports 500 995ms
+2024-03-15T15:40:00Z 192.168.1.42 PUT /api/export 404 676ms
+2024/03/15 15:40:02 192.168.1.42 POST /api/health 401 1362ms
+2024/03/15 15:40:05 10.0.0.7 DELETE /api/health 502 853ms
+2024-03-15T15:40:05Z 203.0.113.17 POST /api/export 200 1161ms
+2024-03-15T15:40:08Z 172.16.0.3 DELETE /api/export 404 880ms
+2024-03-15T15:40:12Z 192.168.1.42 PUT /api/health 201 705ms
+2024-03-15T15:40:12Z 10.0.0.9 POST /api/orders/abcdef1234567890ab 200 1107ms
+{"timestamp": "2024-03-15T15:40:14Z", "ip": "192.168.1.42", "method": "PATCH", "path": "/api/orders/abcdef1234567890ab", "status": 401, "response_ms": 274}
+2024-03-15T15:40:18Z 192.168.1.42 DELETE /api/users/12 401 1878ms
+1710517221 203.0.113.17 GET /api/users 500 441ms
+2024-03-15T15:40:24Z 10.0.0.7 PATCH /api/export 201 604ms
+2024-03-15T15:40:26Z 172.16.0.3 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 - 1511ms
+2024-03-15T15:40:28Z 192.168.1.42 GET /api/orders/9971 200 1037
+{"timestamp": "2024-03-15T15:40:31Z", "ip": "192.168.1.42", "method": "POST", "path": "/api/login", "status": 301, "response_ms": 59}
+2024-03-15T15:40:33Z 10.0.0.7 get /api/login 200 1675ms
+15-Mar-2024 15:40:37 10.0.0.7 PUT /api/users/12 200 161ms
+2024-03-15T15:40:37Z 203.0.113.17 PATCH /api/users/34 200 1517ms
+{"timestamp": "2024-03-15T15:40:42Z", "ip": "10.0.0.7", "method": "PATCH", "path": "/api/login", "status": 401, "response_ms": 880}
+1710517246 172.16.0.3 PUT /api/health 201 214ms
+  at com.example.Service.process(Service.java:101)
+2024-03-15T15:40:52Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 403 1158ms
+2024-03-15T15:40:55Z 203.0.113.17 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 403 45ms
+2024/03/15 15:40:59 172.16.0.3 PATCH /api/users/12 404 468ms
+{"timestamp": "2024-03-15T15:41:02Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/health", "status": 502, "response_ms": 233}
+2024-03-15T15:41:05Z 192.168.1.42 GET /api/orders/9971 200 435ms
+2024-03-15T15:41:09Z 192.168.1.42 post /api/export 502 1726ms
+2024-03-15T15:41:13Z 203.0.113.17 POST /api/users 404 526ms
+2024-03-15T15:41:16Z 172.16.0.3 POST /api/users 401 1421ms
+2024-03-15T15:41:21Z 192.168.1.42 put /api/users/550e8400-e29b-41d4-a716-446655440000 500 1637ms
+2024-03-15T15:41:25Z 172.16.0.3 POST /api/reports 404 1461ms
+2024-03-15T15:41:29Z 192.168.1.42 GET /api/export 200 779ms
+1710517290 10.0.0.7 PATCH /api/users/12 200 414ms
+2024-03-15T15:41:34Z 192.168.1.42 GET /api/export 404 359ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+1710517295 203.0.113.17 DELETE /api/export 200 617ms
+2024-03-15T15:41:36Z 172.16.0.3 PUT /api/orders/9971 401 1269ms
+2024-03-15T15:41:40Z 10.0.0.7 POST /api/login 500 1412ms
+{"timestamp": "2024-03-15T15:41:41Z", "ip": "172.16.0.3", "method": "PATCH", "path": "/api/orders/abcdef1234567890ab", "status": 301, "response_ms": 976}
+2024-03-15T15:41:45Z 172.16.0.3 POST /api/users/34 500 1474ms
+2024-03-15T15:41:49Z 10.0.0.9 POST /api/users/34 404 147ms
+2024-03-15T15:41:49Z 10.0.0.7 POST /api/users/12 500 949ms
+2024-03-15T15:41:52Z 203.0.113.17 DELETE /api/orders/abcdef1234567890ab 200 146ms
+2024-03-15T15:41:55Z 10.0.0.7 put /api/users 201 572ms
+{"timestamp": "2024-03-15T15:41:58Z", "ip": "10.0.0.9", "method": "PATCH", "path": "/api/login", "status": 401, "response_ms": 1288}
+2024-03-15T15:42:01Z 203.0.113.17 PATCH /api/users/550e8400-e29b-41d4-a716-446655440000 200 1.223s
+2024-03-15T15:42:02Z 10.0.0.7 PUT /api/users/34 301 1164ms
+2024-03-15T15:42:03Z 203.0.113.17 PATCH /api/export 401 1188ms
+2024-03-15T15:42:08Z 203.0.113.17 delete /api/users/550e8400-e29b-41d4-a716-446655440000 200 15ms
+2024-03-15T15:42:10Z 192.168.1.42 PATCH /api/users/34 200 347ms "broken user agent not closed
+2024-03-15T15:42:14Z 172.16.0.3 GET /api/users 200 1057ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+15-Mar-2024 15:42:18 172.16.0.3 PUT /api/orders/9971 200 503ms
+{"timestamp": "2024-03-15T15:42:21Z", "ip": "10.0.0.9", "method": "PUT", "path": "/api/login", "status": 500, "response_ms": 659}
+2024-03-15T15:42:25Z 203.0.113.17 POST /api/users/34 301 1466ms
+{"timestamp": "2024-03-15T15:42:27Z", "ip": "203.0.113.17", "method": "DELETE", "path": "/api/health", "status": 301, "response_ms": 1413}
+2024-03-15T15:42:28Z 10.0.0.9 PUT /api/users/34 200 1783ms
+2024-03-15T15:42:31Z 172.16.0.3 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 1156ms "curl/7.88.1"
+2024-03-15T15:42:34Z 192.168.1.42 POST /api/health 401 1087ms
+2024-03-15T15:42:36Z 172.16.0.3 PUT /api/users/12 401 1885ms
+2024-03-15T15:42:38Z 192.168.1.42 PATCH /api/login 200 1335ms
+2024-03-15T15:42:40Z 10.0.0.9 get /api/login 301 1290ms
+Traceback (most recent call last):
+{"timestamp": "2024-03-15
+2024-03-15T15:42:45Z 203.0.113.17 POST /api/users/34 200 179ms
+{"timestamp": "2024-03-15T15:42:49Z", "ip": "192.168.1.42", "method": "GET", "path": "/api/health", "status": 200, "response_ms": 653}
+2024-03-15T15:42:50Z 172.16.0.3 POST /api/orders/abcdef1234567890ab 200 691ms "python-requests/2.31.0"
+2024-03-15T15:42:51Z 203.0.113.17 PUT /api/orders/9971 - 1936ms
+2024-03-15T15:42:55Z 192.168.1.42 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 312ms
+2024-03-15T15:42:57Z 10.0.0.9 GET /api/login 502 416ms
+2024-03-15T15:43:01Z 192.168.1.42 PUT /api/login 500 728ms
+2024-03-15T15:43:02Z 203.0.113.17 GET /api/orders/abcdef1234567890ab 404 190ms
+2024-03-15T15:43:03Z 10.0.0.7 GET /api/users/34 - 1220ms
+1710517383 192.168.1.42 POST /api/reports 404 176ms
+2024-03-15T15:43:06Z 10.0.0.7 POST /api/login 200 786ms
+2024-03-15T15:43:08Z 10.0.0.7 PATCH /api/reports 403 472ms
+2024-03-15T15:43:10Z 10.0.0.7 POST /api/login 301 1438ms
+2024-03-15T15:43:13Z 10.0.0.9 PUT /api/orders/abcdef1234567890ab 401 724ms
+2024-03-15T15:43:18Z 10.0.0.7 GET /api/orders/abcdef1234567890ab 403 328ms
+2024-03-15T15:43:22Z 10.0.0.9 PUT /api/login 201 710ms
+2024-03-15T15:43:26Z 172.16.0.3 GET /api/orders/9971 201 538ms
+2024-03-15T15:43:28Z 192.168.1.42 GET /api/orders/9971 200 983ms
+2024-03-15T15:43:30Z 172.16.0.3 PUT /api/orders/abcdef1234567890ab 403 1358ms
+2024-03-15T15:43:35Z 172.16.0.3 GET /api/reports - 335ms
+2024-03-15T15:43:38Z 172.16.0.3 GET /api/users/34 401 637ms
+2024-03-15T15:43:40Z 10.0.0.7 GET /api/health 502 944ms
+2024-03-15T15:43:44Z 10.0.0.9 delete /api/health 201 527ms
+2024-03-15T15:43:48Z 10.0.0.9 delete /api/login 200 1998ms
+1710517430 203.0.113.17 GET /api/export 403 1595ms
+
+2024-03-15T15:43:55Z 10.0.0.7 patch /api/users/34 301 1825ms
+  at com.example.Service.process(Service.java:101)
+
+1710517447 10.0.0.7 PUT /api/users 200 643ms
+{"timestamp": "2024-03-15T15:44:08Z", "ip": "10.0.0.9", "method": "DELETE", "path": "/api/users/34", "status": 404, "response_ms": 11}
+2024-03-15T15:44:09Z 10.0.0.7 PUT /api/login 200 388ms
+2024-03-15T15:44:11Z 10.0.0.9 GET /api/users/550e8400-e29b-41d4-a716-446655440000 200 1412ms "python-requests/2.31.0"
+2024-03-15T15:44:12Z 172.16.0.3 GET /api/health 500 1416ms
+2024/03/15 15:44:15 10.0.0.9 DELETE /api/health 201 1572ms
+2024-03-15T15:44:18Z 10.0.0.7 DELETE /api/reports 301 1688ms
+2024-03-15T15:44:22Z 203.0.113.17 get /api/reports 404 1381ms
+2024-03-15T15:44:27Z 203.0.113.17 POST /api/users/550e8400-e29b-41d4-a716-446655440000 401 751ms
+2024-03-15T15:44:30Z 192.168.1.42 PATCH /api/orders/abcdef1234567890ab 403 1883ms
+2024-03-15T15:44:30Z 10.0.0.7 delete /api/users/550e8400-e29b-41d4-a716-446655440000 200 442ms
+2024-03-15T15:44:33Z 172.16.0.3 DELETE /api/users/34 403 318ms
+2024-03-15T15:44:35Z 10.0.0.9 GET /api/login 403 377ms
+2024-03-15T15:44:37Z 203.0.113.17 GET /api/health 200 719ms
+15-Mar-2024 15:44:38 10.0.0.9 GET /api/users/34 401 273ms
+2024-03-15T15:44:41Z 10.0.0.9 DELETE /api/users 301 880ms
+1710517484 192.168.1.42 PATCH /api/health 500 773ms
+15-Mar-2024 15:44:48 203.0.113.17 PUT /api/users/12 200 878ms
+2024-03-15T15:44:48Z 172.16.0.3 PATCH /api/login 201 1064ms
+2024-03-15T15:44:52Z 10.0.0.9 PUT /api/users 200 1787ms
+2024-03-15T15:44:56Z 192.168.1.42 PATCH /api/reports 301 881ms
+15-Mar-2024 15:44:59 192.168.1.42 PATCH /api/login 200 610ms
+2024-03-15T15:45:03Z 172.16.0.3 PUT /api/users 502 238ms
+1710517506 203.0.113.17 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 200 182ms
+2024-03-15T15:45:10Z 10.0.0.7 DELETE /api/export 301 717ms
+2024/03/15 15:45:14 10.0.0.7 PATCH /api/orders/abcdef1234567890ab 404 93ms
+2024-03-15T15:45:17Z 10.0.0.7 PATCH /api/users/12 403 1059ms
+2024-03-15T15:45:18Z 172.16.0.3 DELETE /api/export 200 386ms
+15-Mar-2024 15:45:20 192.168.1.42 DELETE /api/users/12 201 1179ms
+2024-03-15T15:45:22Z 203.0.113.17 post /api/users 401 1184ms
+2024-03-15T15:45:26Z 10.0.0.9 PUT /api/users/34 301 1037ms
+2024-03-15T15:45:27Z 10.0.0.7 put /api/login 200 843ms
+2024-03-15T15:45:29Z 10.0.0.9 POST /api/login 301 957ms
+2024-03-15T15:45:31Z 10.0.0.7 GET /api/reports 201 140ms
+15-Mar-2024 15:45:34 203.0.113.17 DELETE /api/orders/abcdef1234567890ab 403 1310ms
+2024-03-15T15:45:38Z 203.0.113.17 GET /api/reports 401 664ms
+{"timestamp": "2024-03-15T15:45:41Z", "ip": "10.0.0.7", "method": "DELETE", "path": "/api/health", "status": 201, "response_ms": 1100}
+2024/03/15 15:45:43 172.16.0.3 DELETE /api/users 502 1991ms
+2024-03-15T15:45:47Z 172.16.0.3 GET /api/users/550e8400-e29b-41d4-a716-446655440000 500 766ms
+2024-03-15T15:45:49Z 172.16.0.3 DELETE /api/health 200 329ms
+2024-03-15T15:45:54Z 172.16.0.3 PATCH /api/export 403 1576ms
+1710517555 172.16.0.3 PATCH /api/health 201 778ms
+2024-03-15T15:45:59Z 203.0.113.17 GET /api/users/12 403 457ms
+BmkP)QJrR/zEKdE#''OsP"XAVkmPA0'GXmcN-RRQo3<sh;
+{"timestamp": "2024-03-15T15:46:05Z", "ip":
+2024-03-15T15:46:07Z 10.0.0.9 GET /api/reports 200 1531ms
+2024-03-15T15:46:10Z 10.0.0.7 POST /api/health 401 1490ms
+2024-03-15T15:46:12Z 10.0.0.7 PUT /api/users/34 301 142ms
+2024-03-15T15:46:12Z 10.0.0.9 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 502 918ms
+{"timestamp": "2024-03-15T15:46:14Z", "ip": "10.0.0.9", "method": "PATCH", "path": "/api/users/12", "status": 502, "response_ms": 1725}
+2024-03-15T15:46:17Z 10.0.0.7 POST /api/health 200 24ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:46:21Z 10.0.0.9 DELETE /api/users/12 403 1971ms "python-requests/2.31.0"
+2024-03-15T15:46:25Z 203.0.113.17 PATCH /api/users 404 994ms
+2024-03-15T15:46:26Z 10.0.0.9 GET /api/reports 403 1477ms
+2024-03-15T15:46:30Z 10.0.0.9 delete /api/users/12 200 308ms
+1710517592 203.0.113.17 GET /api/users/34 401 855ms
+2024-03-15T15:46:35Z 10.0.0.7 DELETE /api/users/550e8400-e29b-41d4-a716-446655440000 301 208ms
+2024-03-15T15:46:38Z 192.168.1.42 delete /api/health 201 1560ms
+2024-03-15T15:46:40Z 10.0.0.9 PUT /api/health 301 1173ms
+2024-03-15T15:46:43Z 10.0.0.7 post /api/orders/9971 301 63ms
+2024-03-15T15:46:44Z 203.0.113.17 PUT /api/login 301 1944ms "curl/7.88.1"
+2024-03-15T15:46:49Z 10.0.0.9 delete /api/login 200 1533ms
+2024-03-15T15:46:50Z 172.16.0.3 DELETE /api/login 201 67ms
+2024-03-15T15:46:52Z 10.0.0.7 patch /api/users 301 755ms
+1710517616 203.0.113.17 DELETE /api/health 502 1853ms
+  File "app.py", line 42, in handle_request
+2024-03-15T15:47:03Z 172.16.0.3 PATCH /api/reports 403 1782ms "Googlebot/2.1 (+http://www.google.com/bot.html)"
+2024-03-15T15:47:04Z 10.0.0.9 POST /api/health 403 39ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+2024-03-15T15:47:07Z 10.0.0.7 POST /api/users/34 301 1256ms
+2024-03-15T15:47:08Z 172.16.0.3 delete /api/health 502 1879ms
+{"timestamp": "2024-03-15T15:47:09Z", "ip": "203.0.113.17", "method": "POST", "path": "/api/users/550e8400-e29b-41d4-a716-446655440000", "status": 401, "response_ms": 1370}
+2024-03-15T15:47:09Z 192.168.1.42 PUT /api/orders/9971 200 565ms
+  at com.example.Service.process(Service.java:101)
+Traceback (most recent call last):
+2024-03-15T15:47:18Z 10.0.0.7 POST /api/login 200 1422ms
