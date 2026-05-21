@@ -144,6 +144,4 @@ def status_class(status: Optional[int]) -> str:
         return "4xx"
     if 500 <= status < 600:
         return "5xx"
-    # Unreachable when input comes from normalize_status, but kept so
-    # direct callers passing arbitrary integers don't get an unhandled case.
     return "other"

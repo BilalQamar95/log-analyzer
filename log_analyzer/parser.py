@@ -92,7 +92,7 @@ def parse_json_line(line: str, line_no: int) -> Optional[Event]:
     return Event(
         timestamp=ts,
         ip=data.get("ip"),
-        method=(data.get("method") or "").upper() or None,
+        method=m.upper() if isinstance(m := data.get("method"), str) and m else None,
         path=raw_path,            # deviation #7: analyzer normalizes, not parser
         raw_path=raw_path,
         status=normalize_status(raw_status),
