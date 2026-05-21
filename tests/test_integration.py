@@ -123,6 +123,11 @@ class TestFlagMatrix:
         assert rc == 0
         assert "top 10" not in capsys.readouterr().out
 
+    def test_slowest_25_not_capped_at_10(self, capsys):
+        rc = main([str(MESSY), "--slowest", "25"])
+        assert rc == 0
+        assert "top 25" in capsys.readouterr().out
+
     def test_json_flag_all_keys(self, capsys):
         rc = main([str(MESSY), "--json"])
         assert rc == 0

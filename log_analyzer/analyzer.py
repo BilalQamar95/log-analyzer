@@ -118,7 +118,7 @@ class Analyzer:
             "format_counts": {k.value: v for k, v in self.format_counts.items()},
             "status_class_counts": dict(self.status_class_counts),
             "top_endpoints": self.endpoint_request_counts.most_common(10),
-            "slowest_endpoints": self._slowest_endpoints(10),
+            "slowest_endpoints": self._slowest_endpoints(),
             "error_heavy_endpoints": self._error_heavy_endpoints(10),
             "top_ips": self.ip_counts.most_common(10),
             "date_range": {
@@ -145,7 +145,7 @@ class Analyzer:
             "field_warnings": {k.value: v for k, v in self.field_warning_counts.items()},
         }
 
-    def _slowest_endpoints(self, n: int) -> List[Dict[str, Any]]:
+    def _slowest_endpoints(self) -> List[Dict[str, Any]]:
         rows = []
         for endpoint, store in self.endpoint_latencies.items():
             if store.count() == 0:
@@ -157,8 +157,8 @@ class Analyzer:
                 "p99": store.percentile(99),
                 "max": store.max(),
             })
-        rows.sort(key=lambda r: r["p95"] or 0, reverse=True)
-        return rows[:n]
+        rows.sort(key=lambda r: r["p95"], reverse=True)
+        return rows
 
     def _error_heavy_endpoints(self, n: int) -> List[Dict[str, Any]]:
         rows = []
