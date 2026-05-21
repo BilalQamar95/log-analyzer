@@ -57,6 +57,8 @@ cover/
 
 # Django stuff:
 *.log
+# Keep committed test fixtures
+!tests/fixtures/*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -216,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local docs
+claude.md
+project-docs/
+ANSWERS.md
