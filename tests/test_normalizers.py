@@ -36,6 +36,11 @@ class TestNormalizeTimestamp:
         "-500",       # negative epoch
         "not-a-date",
         "2024-99-99", # invalid calendar date
+        "-",          # stray hyphen
+        "200",        # small int: below epoch floor, not a valid format
+        "1.5e9",      # scientific notation: not treated as epoch
+        "nan",
+        "inf",
     ])
     def test_invalid_returns_none(self, value):
         assert normalize_timestamp(value) is None
@@ -54,6 +59,12 @@ class TestNormalizeResponseTime:
     def test_valid(self, value, expected_ms):
         assert normalize_response_time(value) == pytest.approx(expected_ms)
 
+    @pytest.mark.parametrize("value,expected_ms", [
+        ("123 ms", 123.0),   # space before unit: float() strips trailing whitespace on s[:-2]
+    ])
+    def test_space_before_unit(self, value, expected_ms):
+        assert normalize_response_time(value) == pytest.approx(expected_ms)
+
     @pytest.mark.parametrize("value", [
         None,
         "",
@@ -61,7 +72,8 @@ class TestNormalizeResponseTime:
         "-500ms",  # negative
         "-0.1s",
         "abc",
-        "msms",
+        "inf",     # infinity corrupts percentile calculations
+        "nan",     # NaN poisons all comparisons downstream
     ])
     def test_invalid_returns_none(self, value):
         assert normalize_response_time(value) is None
@@ -104,6 +116,10 @@ class TestNormalizePath:
         ("/api/trace/abcdef1234567890ab",              "/api/trace/:hex"),
         ("/api/users?page=1",                          "/api/users"),
         ("/api/users?a=1&b=2",                         "/api/users"),
+        ("/api/users#section",                         "/api/users"),   # fragment stripped
+        ("/api/users/12#anchor",                       "/api/users/:id"),
+        ("/api/users/",                                "/api/users"),   # trailing slash normalized
+        ("/api/users/12/",                             "/api/users/:id"),
         ("/api/users",                                 "/api/users"),
         ("/",                                          "/"),
         ("",                                           ""),
