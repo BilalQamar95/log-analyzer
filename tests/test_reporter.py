@@ -303,4 +303,4 @@ class TestAnomalySamples:
         for i in range(10):
             a.consume(make_anomaly(kind=AnomalyKind.UNKNOWN_FORMAT, raw=f"bad {i}", line_no=i))
         text = render(a.snapshot(), anomalies=True)
-        assert "bad 9" in text  # last sample visible in full mode
+        assert "bad 9" in text  # 10 fed == cap, so all are stored (first-N policy)

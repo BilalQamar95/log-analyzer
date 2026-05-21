@@ -338,7 +338,7 @@ class TestLatency:
         a.consume(make_event(path="/api/health", response_ms=150.0))
         store = a.endpoint_latencies["GET /api/health"]
         assert store.count() == 2
-        assert store.percentile(50) == 50.0 or store.percentile(50) == 150.0
+        assert store.percentile(50) == 50.0  # k = round(0.5*(2-1)) = round(0.5) = 0 (banker's)
 
     def test_slowest_endpoints_sorted_by_p95(self):
         a = Analyzer()
