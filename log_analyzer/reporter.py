@@ -3,7 +3,7 @@ from typing import Any, Dict
 
 
 def _fmt_ms(v) -> str:
-    return f"{int(v)}ms" if v is not None else "-"
+    return f"{v:.1f}ms" if v is not None else "-"
 
 
 class JsonReporter:
