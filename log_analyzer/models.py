@@ -4,6 +4,12 @@ from enum import Enum
 from typing import Optional, Union
 
 
+class SourceFormat(str, Enum):
+    STANDARD  = "standard"
+    JSON      = "json"
+    ALTERNATE = "alternate"
+
+
 @dataclass(frozen=True)
 class Event:
     """A successfully parsed log entry, normalized to canonical shape."""
@@ -17,7 +23,7 @@ class Event:
     raw_status: Optional[str] = None
     raw_response_time: Optional[str] = None
     raw_extra: Optional[str] = None
-    source_format: str = "standard"
+    source_format: SourceFormat = SourceFormat.STANDARD
     line_no: int = 0
 
 
