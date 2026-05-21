@@ -69,7 +69,7 @@ broken-pipe check, acceptance smoke covering all fixtures × all flags).
 ## Layout
 
 ```
-loganalyze.py                   thin entry point (4 lines)
+loganalyze.py                   thin entry point (5 lines)
 log_analyzer/                   runtime package (stdlib-only)
   models.py                     Event, Anomaly, enums
   normalizers.py                pure field coercion — never raises
