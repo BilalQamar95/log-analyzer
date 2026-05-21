@@ -242,17 +242,3 @@ class Parser:
     @staticmethod
     def _looks_like_stack_trace(line: str) -> bool:
         return any(line.startswith(p) for p in STACK_TRACE_PREFIXES)
-
-
-# ---------------------------------------------------------------------------
-# Utility (not in core parse path)
-# ---------------------------------------------------------------------------
-
-def parse_extra_field(raw_extra: Optional[str]) -> List[str]:
-    """Tokenize a quoted extra field. Never raises."""
-    if not raw_extra:
-        return []
-    try:
-        return shlex.split(raw_extra, posix=True)
-    except ValueError:
-        return [raw_extra]

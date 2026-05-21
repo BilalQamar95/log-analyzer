@@ -7,7 +7,6 @@ from log_analyzer.parser import (
     parse_alt_format_line,
     parse_json_line,
     parse_standard_line,
-    parse_extra_field,
 )
 
 FIXTURE = os.path.join(os.path.dirname(__file__), "fixtures", "adversarial.log")
@@ -325,31 +324,6 @@ class TestStackTraceDetection:
     ])
     def test_detection(self, line, expected):
         assert Parser._looks_like_stack_trace(line) == expected
-
-
-# ---------------------------------------------------------------------------
-# parse_extra_field utility
-# ---------------------------------------------------------------------------
-
-class TestParseExtraField:
-    def test_none_returns_empty(self):
-        assert parse_extra_field(None) == []
-
-    def test_empty_string_returns_empty(self):
-        assert parse_extra_field("") == []
-
-    def test_quoted_token_split(self):
-        tokens = parse_extra_field('"Mozilla/5.0 (Windows NT 10.0)"')
-        assert tokens == ["Mozilla/5.0 (Windows NT 10.0)"]
-
-    def test_multiple_tokens(self):
-        tokens = parse_extra_field('"agent string" "http://referrer.com"')
-        assert len(tokens) == 2
-
-    def test_unclosed_quote_returns_raw(self):
-        raw = '"unclosed quote'
-        tokens = parse_extra_field(raw)
-        assert tokens == [raw]
 
 
 # ---------------------------------------------------------------------------
