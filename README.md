@@ -1,4 +1,4 @@
-# log-analyzer
+# log-analyzer (Assessment Task)
 
 Streaming analyzer for messy server log files. Parses standard, JSON, and
 alternate-timestamp formats; degrades gracefully on malformed input — skipped
